@@ -1,0 +1,111 @@
+header nav li{
+position: relative;
+left: 82%;
+text-align: right;
+list-style-type: none;
+display: inline;
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.imagen1{
+position: absolute;
+left: 10%;
+bottom: 35%;
+padding: 10%;
+border: 20%;
+margin: 10%;
+border: 10%; border-radius: 50%;
+}
+
+header nav h1{
+text-align: center;
+position: absolute; 
+left: 30.6%;
+bottom: 61%;
+padding: 1%;
+border: 15%;
+margin: 10%;
+border: 10%;
+font-size: 400%;
+font-style: italic;
+color: rgb(255, 0, 242);
+border-style: solid;
+background-color: white;
+}
+.imagen2{
+position: absolute;
+left: 40%;
+bottom: 35%;
+padding: 10%;
+border: 20%;
+margin: 10%;
+border: 10%; border-radius: 50%;
+}
+
+main{
+position: absolute;
+right: 15%;
+left: 15%;
+top: 15%;
+bottom: 15%;
+bottom: 5%;
+border: 10%;
+margin: 10%;
+background-color: transparent;
+filter: opacity(80%);
+border-style:solid;
+border-color: white;
+}
+
+main label {
+position: relative;
+top: 1%;
+font-style:initial;
+font-size: 250%;
+color: white;
+}
+
+main input{
+position: relative;
+top: 2%;
+font-style: italic;
+font-size: 150%;
+width: 99%;
+border-style: solid;
+border-color: black;
+}
+
+main a{
+position: relative;
+bottom: -3%;
+color: rgb(238, 255, 0);
+}
+
+main button{
+position: relative;
+right: 27%;
+top: 40%;
+font-style: italic;
+font-size: 150%;
+border-style: solid;
+border-color: black;
+}
+
+body{
+background-image: url(https://static.vecteezy.com/system/resources/previews/000/662/947/large_2x/low-poly-wireframe-laptop-vector.jpg);
+background-size: 80%;
+background-position-y: 12%;
+background-position-x: 25%;
+}
+
+footer{
+position: absolute;
+text-align: center;
+right: -10%;
+bottom: -20.5%;
+padding: 1%;
+border: 15%;
+margin: 10%;
+width: 100%;
+background-color: grey;
+}

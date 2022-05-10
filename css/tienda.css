@@ -1,0 +1,174 @@
+header nav li{
+position: relative;
+left: 82%;
+text-align: right;
+list-style-type: none;
+display: inline;
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+body{
+background-image: url(https://img.freepik.com/vector-gratis/fondo-luces-neon-realista_23-2148902691.jpg);
+background-size: 35%;
+background-position-y: 0%;
+background-position-x: 47%;
+}
+        
+main h1{
+text-align:center;
+position: absolute; 
+left: 32.2%;
+bottom: 61%;
+padding: 1%;
+border: 15%;
+margin: 10%;
+border: 10%;
+font-size: 400%;
+font-style: italic;
+color: rgb(255, 0, 242);
+border-style: solid;
+background-color: white;
+}
+
+main input{
+text-align: left;
+position: absolute; 
+left: 9%;
+bottom: 45%;
+padding: 0.7%;
+border: 15%;
+margin: 10%;
+border: 10%;
+width: 60%;
+font-style: italic;
+}
+
+main ul li{
+list-style-type: none;
+display: inline;
+text-align: center;
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.boton1{
+position: absolute;
+top: 38%;
+left: 42%;
+border-style: solid;
+border-color: black;
+font-size: 100%;
+}
+
+.boton2{
+position: absolute;
+top: 38%;
+left: 45.6%;
+border-style: solid;
+border-color: black;
+font-size: 100%;
+}
+
+.boton3{
+position: absolute;
+top: 38%;
+left: 50.5%;
+border-style: solid;
+border-color: black;
+font-size: 100%;
+}
+
+.boton4{
+position: absolute;
+top: 38%;
+left: 53.6%;
+border-style: solid;
+border-color: black;
+font-size: 100%;
+}
+
+.imagen1{
+position: absolute;
+top: 50%;
+left: 15%; 
+}
+
+.imagen2{
+position: absolute;
+top: 50%;
+left: 30%; 
+}
+
+.imagen3{
+position: absolute;
+top: 50%;
+left: 45%; 
+}
+
+.imagen4{
+position: absolute;
+top: 50%;
+left: 60%; 
+}
+
+.imagen5{
+position: absolute;
+top: 50%;
+left: 75%; 
+}
+
+.buttom1{
+position: absolute;
+top: 68%;
+left: 15%;
+border-style: solid;
+border-color: black;
+font-weight: bold;
+}
+
+.buttom2{
+position: absolute;
+top: 68%;
+left: 30%;
+border-style: solid;
+border-color: black;
+font-weight: bold;
+}
+
+.buttom3{
+position: absolute;
+top: 68%;
+left: 45%;
+border-style: solid;
+border-color: black;
+font-weight: bold;
+}
+
+.buttom4{
+position: absolute;
+top: 68%;
+left: 60%;
+border-style: solid;
+border-color: black;
+font-weight: bold;
+}
+
+.buttom5{
+position: absolute;
+top: 68%;
+left: 75%;
+border-style: solid;
+border-color: black;
+font-weight: bold;
+}
+
+footer{
+position: absolute;
+text-align: center;
+right: -10%;
+bottom: -20.5%;
+padding: 1%;
+border: 15%;
+margin: 10%;
+width: 100%;
+background-color: grey;
+}
