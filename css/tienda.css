@@ -32,7 +32,7 @@ column-gap: 25px;
 display: flex;
 }
 
-.animacion{
+.logo-gif{
 grid-area: gif;
 justify-self: left;
 border-radius: 50%;

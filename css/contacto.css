@@ -1,21 +1,45 @@
-header nav li{
-position: relative;
-left: 82%;
-text-align: right;
-list-style-type: none;
+.grid1{
 display: inline;
-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+list-style-type: none;
+display: flex;
+column-gap: 25px;
+justify-content: right;
 }
 
-main h1{
-text-align: center;
-position: absolute; 
-left: 30.6%;
-bottom: 61%;
-padding: 1%;
-border: 15%;
-margin: 10%;
-border: 10%;
+.grid2{
+min-height: 828px;
+grid-template-columns: 20% 20% 10% 30% 20%;
+grid-template-rows: 20% 15% 15% 3% 5% 3% 5% 3% 5% 5%;
+justify-items: center;
+align-items:center;
+display: grid;
+grid-template-areas:
+". t t t ."
+". s . . ."
+". p p p ."
+". n c c gif"
+". n2 c c gif"
+". a c c gif"
+". a2 c c gif"
+". e c c gif"
+". e2 c c gif"
+". . b . gif"
+
+;
+}
+
+.grid3{
+width: 100%;
+min-height: 50px;
+justify-content: center;
+align-items: center;
+background-color: grey;
+column-gap: 25px;
+display: flex;
+}
+
+.titulo{
+grid-area: t;
 font-size: 400%;
 font-style: italic;
 color: rgb(255, 0, 242);
@@ -23,174 +47,141 @@ border-style: solid;
 background-color: white;
 }
 
-main h3{
-text-align: center;
-position: absolute; 
-left: 10%;
-bottom: 45%;
-padding: 1%;
-border: 15%;
-margin: 10%;
-border: 10%;
+.subtitulo{
+grid-area: s;
+justify-self: left;
 color: white;
 font-size: 300%;
 }
 
-main p{
-text-align: left;
-position: absolute; 
-left: 10.2%;
-bottom: 38%;
-padding: 1%;
-border: 15%;
-margin: 10%;
-border: 10%;
+.parrafo{
+grid-area: p;
 font-size: 150%;
 color:white;
 font-style: italic;
 }
 
 .nombre{
+grid-area: n;
+justify-self: left;
 text-align: left;
-position: absolute; 
-left: 10.2%;
-bottom: 32%;
-padding: 1%;
-border: 15%;
-margin: 10%;
-border: 10%;
 font-size: 150%;
 color: white;
 }
 
 .nombre2{
+grid-area: n2;
 text-align:left;
-position: absolute; 
-left: 11.1%;
-bottom: 30%;
-padding: 0.4%;
-border: 15%;
-margin: 10%;
-border: 10%;
-width: 20%;
+justify-self: left;
+width: 270px;
+font-size: 20px;
 font-style: italic;
 border-style: solid;
 border-color: black;
 }
 
 .apellido{
+grid-area: a;
 text-align: left;
-position: absolute; 
-left: 10.1%;
-bottom: 24%;
-padding: 1%;
-border: 15%;
-margin: 10%;
-border: 10%;
+justify-self: left;
 font-size: 150%;
 color: white;
 }
 
 .apellido2{
+grid-area: a2;
 text-align:left;
-position: absolute; 
-left: 11.1%;
-bottom: 22%;
-padding: 0.4%;
-border: 15%;
-margin: 10%;
-border: 10%;
-width: 20%;
+justify-self: left;
+width: 270px;
+font-size: 20px;
 font-style: italic;
 border-style: solid;
 border-color: black;
 }
 
 .email{
+grid-area: e;
 text-align: left;
-position: absolute; 
-left: 10.1%;
-bottom: 16%;
-padding: 1%;
-border: 15%;
-margin: 10%;
-border: 10%;
+justify-self: left;
 font-size: 150%;
 color: white;
 }
 
 .email2{
+grid-area: e2;
 text-align:left;
-position: absolute; 
-left: 11.1%;
-bottom: 14%;
-padding: 0.4%;
-border: 15%;
-margin: 10%;
-border: 10%;
-width: 20%;
+justify-self: left;
+width: 270px;
+font-size: 20px;
 font-style: italic;
 border-style: solid;
 border-color: black;
 }
 
 .comentar{
+grid-area: c;
 text-align:left;
-position: absolute; 
-left: 33%;
-bottom: 14%;
-padding: 0.4%;
-border: 15%;
-margin: 10%;
-border: 10%;
-height: 20%;
-width: 30%;
+height: 180px;
+width: 570px;
 font-style: italic;
 border-style: solid;
 border-color: black;
 }
 
-.imagen{
-position: absolute;
-left: 56%;
-bottom: -6%;
-padding: 10%;
-border: 10%;
-margin: 10%;
-border: 10%;
+.logo-gif{
+grid-area: gif;
+justify-self:left;
+width: 100px;
+height: 100px;
 border-radius: 50%;
+-webkit-animation: efecto 2s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+animation: efecto 2s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+animation-iteration-count: infinite;
+}
+    
+@-webkit-keyframes efecto {
+    0% {
+        -webkit-transform: rotateY(0);
+                transform: rotateY(0);
+    }
+    100% {
+        -webkit-transform: rotateY(360deg);
+                transform: rotateY(360deg);
+    }
+      }
+    @keyframes efecto {
+    0% {
+        -webkit-transform: rotateY(0);
+                transform: rotateY(0);
+    }
+    100% {
+        -webkit-transform: rotateY(360deg);
+                transform: rotateY(360deg);
+    }
 }
 
 .boton{
-text-align: left;
-position: absolute; 
-left: 33%;
-bottom: 9%;
-padding: 0.3%;
-border: 15%;
-margin: 10%;
-border: 10%;
+grid-area: b;
 font-size: 100%;
 font-weight: bold;
 border-style: solid;
 border-color: black;
+justify-self: left;
 }
 
 body{
-background-image: url(https://static.vecteezy.com/system/resources/previews/000/587/512/large_2x/futuristic-flying-electronic-envelope-email-on-dark-gradient-blue-to-purple-background-vector.jpg);
-background-size: 52%;
-background-position-y: 10%;
-background-position-x: 0%;
+background: rgb(32,36,0);
+background: linear-gradient(180deg, rgba(32,36,0,1) 25%, rgba(9,113,121,1) 50%, rgba(1,4,41,1) 75%, rgba(252,0,255,1) 100%);
 }
+    
+@media screen and (max-width:1023px){
+    .body{
+        background-color: rgb(255, 0, 242);
+        }
+    }
+@media screen and (max-width:600px){
+    .body{
+        background-color: rgb(255, 0, 242);
+        }
+    }
 
-footer{
-position: absolute;
-text-align: center;
-right: -10%;
-bottom: -20.5%;
-padding: 1%;
-border: 15%;
-margin: 10%;
-width: 100%;
-background-color: grey;
-}
