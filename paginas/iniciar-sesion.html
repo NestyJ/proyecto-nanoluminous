@@ -12,50 +12,53 @@
     <style>
         a {color: aliceblue;}
     </style>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="tienda.html">Tienda</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-                <li><a href="ayuda.html">Ayuda</a></li>
-                <li><a href="iniciar-sesion.html">Iniciar-sesion</a></li>
-            </ul>
-            
-            <img src="../imagenes/logo.jpeg"
-            width="200"
-            height="200"
-            alt="Logo"
-            class="imagen1"
-            >
-            <h1>NANO LED</h1>
-            <img src="../imagenes/logo.jpeg"
-             width="200"
-             height="200"
-             alt="Logo"
-             class="imagen2"
-             >
-
-        </nav>
-    </header>
+        <header>
+            <nav>
+                <ul class="grid1">
+                    <li class="nav_item"><a class="nav_enlace1" href="../index.html">Inicio</a></li>
+                    <li class="nav_item"><a class="nav_enlace2" href="tienda.html">Tienda</a></li>
+                    <li class="nav_item"><a class="nav_enlace3" href="contacto.html">Contacto</a></li>
+                    <li class="nav_item"><a class="nav_enlace4" href="ayuda.html">Ayuda</a></li>
+                    <li class="nav_item"><a class="nav_enlace5" href="iniciar-sesion.html">Iniciar-sesion</a></li>
+                </ul>
+            </nav> 
+        </header>
         <main>
-            <label for="correo o usuario">Correo electronico o Usuario:</label>
-                <input type="text" id="correo o usuario" placeholder="Correo electronico o Usuario">
-                <label for="contraseña">Contraseña:</label>
-                <input type="password" id="contraseña" placeholder="Contraseña">
+            <div class="grid2">
+                <img src="../imagenes/logo.jpeg"
+                alt="Logo"
+                class="logo1"
+                >
 
-            <a href="iniciar-sesion.html">¿Has olvidado tu contraseña?</a>
-            <a href="iniciar-sesion.html">Registrate</a>
+                <h1 class="titulo">NANO LED</h1>
+
+                <img src="../imagenes/logo.jpeg"
+                alt="Logo"
+                class="logo2"
+                >
+
+                <label class="text1" for="correo o usuario">Correo electronico o Usuario:</label>
+                <input class="input1" type="text" id="correo o usuario" placeholder="Correo electronico o Usuario">
+                <label class="text2" for="contraseña">Contraseña:</label>
+                <input class="input2" type="password" id="contraseña" placeholder="Contraseña">
+
+                <a class="a1" href="iniciar-sesion.html">¿Has olvidado tu contraseña?</a>
+                <a class="a2" href="iniciar-sesion.html">Registrate</a>
                 
-            <button>Iniciar Sesion</button>
+                <button class="boton">Iniciar Sesion</button>
 
+                <img src="/imagenes/flecha neon.jpg"
+                 alt="gif"
+                 class="flecha-neon"
+                 >
+            </div>
         </main>
 
-        <footer>
-            <a href="https://www.whatsapp.com/?lang=es">Whatsapp</a>
-            <a href="https://twitter.com/?lang=es">Twitter</a>
-            <a href="https://es-la.facebook.com/">Facebook</a>
-            <a href="https://www.instagram.com/nano.led/?hl=es">Instagram</a>
-        </footer>
+    <footer class="grid3">
+        <div class="grid2_hijo1"><a href="https://www.whatsapp.com/?lang=es">Whatsapp</a></div>
+        <div class="grid2_hijo2"><a href="https://twitter.com/?lang=es">Twitter</a></div>
+        <div class="grid2_hijo3"><a href="https://es-la.facebook.com/">Facebook</a></div>
+        <div class="grid2_hijo4"><a href="https://www.instagram.com/nano.led/?hl=es">Instagram</a></div>  
+    </footer>
 </body>
 </html>

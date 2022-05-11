@@ -1,73 +1,88 @@
-header nav li{
-position: relative;
-left: 82%;
-text-align: right;
-list-style-type: none;
+.grid1{
 display: inline;
-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+list-style-type: none;
+display: flex;
+column-gap: 25px;
+justify-content: right;
 }
 
-.imagen1{
-position: absolute;
-left: 10%;
-bottom: 35%;
-padding: 10%;
-border: 20%;
-margin: 10%;
-border: 10%; border-radius: 50%;
+.grid2{
+min-height: 828px;
+grid-template-columns: 20% 20% 20% 20% 20%;
+grid-template-rows: 25% 7% 7% 7% 7% 7% 7%;
+justify-items: left;
+align-items:end;
+display: grid;
+grid-template-areas:
+". l1 t l2 ."
+". t1 t1 t1 ."
+". i1 i1 i1 ."
+". t2 t2 t2 ."
+". i2 i2 i2 ."
+". a1 a2 . ."
+". b gif . ."
+;
 }
 
-header nav h1{
-text-align: center;
-position: absolute; 
-left: 30.6%;
-bottom: 61%;
-padding: 1%;
-border: 15%;
-margin: 10%;
-border: 10%;
-font-size: 400%;
+.grid3{
+width: 100%;
+min-height: 50px;
+justify-content: center;
+align-items: center;
+background-color: grey;
+column-gap: 25px;
+display: flex;
+}
+
+.logo1{
+justify-self: right;
+align-self: start;
+grid-area: l1;
+width: 120px;
+height: 120px;
+border-radius: 50%;
+}
+
+.titulo{
+justify-self: center;
+align-self:start;
+grid-area: t;
+font-size: 50px;
 font-style: italic;
 color: rgb(255, 0, 242);
-border-style: solid;
 background-color: white;
-}
-.imagen2{
-position: absolute;
-left: 40%;
-bottom: 35%;
-padding: 10%;
-border: 20%;
-margin: 10%;
-border: 10%; border-radius: 50%;
+border-style: solid;
 }
 
-main{
-position: absolute;
-right: 15%;
-left: 15%;
-top: 15%;
-bottom: 15%;
-bottom: 5%;
-border: 10%;
-margin: 10%;
-background-color: transparent;
-filter: opacity(80%);
-border-style:solid;
-border-color: white;
+.logo2{
+align-self: start;
+justify-self: left;
+grid-area: l2;
+width: 120px;
+height: 120px;
+border-radius: 50%;
 }
 
-main label {
-position: relative;
-top: 1%;
+.text1{
+justify-self:left;
+grid-area: t1;
 font-style:initial;
 font-size: 250%;
 color: white;
 }
 
-main input{
-position: relative;
-top: 2%;
+.text2{
+justify-self: left;
+grid-area: t2;
+font-style:initial;
+font-size: 250%;
+color: white;
+}
+
+.input1{
+justify-self: left;
+align-self: start;
+grid-area: i1;
 font-style: italic;
 font-size: 150%;
 width: 99%;
@@ -75,37 +90,82 @@ border-style: solid;
 border-color: black;
 }
 
-main a{
-position: relative;
-bottom: -3%;
-color: rgb(238, 255, 0);
-}
-
-main button{
-position: relative;
-right: 27%;
-top: 40%;
+.input2{
+justify-self: left;
+align-self: start;
+grid-area: i2;
 font-style: italic;
 font-size: 150%;
+width: 99%;
 border-style: solid;
 border-color: black;
 }
 
-body{
-background-image: url(https://static.vecteezy.com/system/resources/previews/000/662/947/large_2x/low-poly-wireframe-laptop-vector.jpg);
-background-size: 80%;
-background-position-y: 12%;
-background-position-x: 25%;
+.a1{
+justify-self: left;
+align-self: start;
+grid-area: a1;
+color: rgb(238, 255, 0);
 }
 
-footer{
-position: absolute;
-text-align: center;
-right: -10%;
-bottom: -20.5%;
-padding: 1%;
-border: 15%;
-margin: 10%;
-width: 100%;
-background-color: grey;
+.a2{
+justify-self: left;
+align-self: start;
+grid-area: a2;
+color: rgb(238, 255, 0);
 }
+    
+.boton{
+justify-self: left;
+grid-area: b;
+font-style: italic;
+font-size: 30px;
+border-style: solid;
+border-color: black;
+}
+
+.flecha-neon{
+grid-area: gif;
+width: 70px;
+height: 40px;
+-webkit-animation: efecto 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite both;
+animation: efecto 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite both;
+}
+
+ @-webkit-keyframes efecto {
+    0% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+    }
+    100% {
+      -webkit-transform: translateX(-100px);
+              transform: translateX(-100px);
+    }
+  }
+  @keyframes efecto {
+    0% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+    }
+    100% {
+      -webkit-transform: translateX(-100px);
+              transform: translateX(-100px);
+    }
+  }
+  
+  
+
+body{
+background-image: radial-gradient( circle farthest-corner at 32.7% 82.7%,  rgba(173,0,171,1) 8.3%, rgba(15,51,92,1) 79.4% );
+}
+        
+@media screen and (max-width:1023px){
+    .body{
+        background-color: rgb(255, 0, 242);
+        }
+    }
+@media screen and (max-width:600px){
+    .body{
+        background-color: rgb(255, 0, 242);
+        }
+    }

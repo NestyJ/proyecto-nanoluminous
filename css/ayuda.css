@@ -14,7 +14,7 @@ justify-items: center;
 align-items:center;
 display: grid;
 grid-template-areas:
-". t t t t ."
+"gif t t t t ."
 ". s s s s ."
 ". b b b b ."
 ". t1 t2 t3 t4 ."
@@ -30,6 +30,38 @@ align-items: center;
 background-color: grey;
 column-gap: 25px;
 display: flex;
+}
+
+.logo-gif{
+grid-area: gif;
+justify-self: left;
+border-radius: 50%;
+width: 100px;
+height: 100px;
+-webkit-animation: efecto 2s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+animation: efecto 2s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+animation-iteration-count: infinite;
+}
+        
+@-webkit-keyframes efecto {
+    0% {
+        -webkit-transform: rotateY(0);
+                transform: rotateY(0);
+    }
+    100% {
+        -webkit-transform: rotateY(360deg);
+                transform: rotateY(360deg);
+    }
+        }
+    @keyframes efecto {
+    0% {
+        -webkit-transform: rotateY(0);
+                transform: rotateY(0);
+    }
+    100% {
+        -webkit-transform: rotateY(360deg);
+                transform: rotateY(360deg);
+    }
 }
 
 .titulo{
