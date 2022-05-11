@@ -32,11 +32,10 @@ column-gap: 25px;
 display: flex;
 }
 
-
-
 .animacion{
 grid-area: gif;
 justify-self: left;
+border-radius: 50%;
 width: 100px;
 height: 100px;
 -webkit-animation: efecto 2s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
