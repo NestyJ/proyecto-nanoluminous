@@ -50,6 +50,7 @@ background-color: white;
 border-style: solid;
 }
 
+
 .logo2{
 justify-self: left;
 grid-area: l2;
@@ -64,6 +65,9 @@ grid-area: i1;
 border-radius: 15%;
 width: 380px;
 height: 380px;
+-webkit-box-shadow:0px 0px 50px 30px #ffffff ;
+-moz-box-shadow:0px 0px 50px 30px #ffffff ;
+box-shadow:0px 0px 50px 30px #ffffff ;
 }
 
 .triangulo1{
@@ -71,6 +75,9 @@ grid-area: t1;
 border-radius: 25%;
 width: 250px;
 height: 250px;
+-webkit-box-shadow:0px 0px 50px 30px #ffffff ;
+-moz-box-shadow:0px 0px 50px 30px #ffffff ;
+box-shadow:0px 0px 50px 30px #ffffff ;
 }
 
 .triangulo2{
@@ -78,6 +85,9 @@ grid-area: t2;
 border-radius: 25%;
 width: 250px;
 height: 250px;
+-webkit-box-shadow:0px 0px 50px 30px #ffffff ;
+-moz-box-shadow:0px 0px 50px 30px #ffffff ;
+box-shadow:0px 0px 50px 30px #ffffff ;
 }
 
 .panel-izquierdo{
@@ -85,6 +95,9 @@ grid-area: p-i;
 border-radius: 25%;
 width: 200px;
 height: 200px;
+-webkit-box-shadow:0px 0px 50px 30px #ffffff ;
+-moz-box-shadow:0px 0px 50px 30px #ffffff ;
+box-shadow:0px 0px 50px 30px #ffffff ;
 }
 
 .panel-derecho{
@@ -92,6 +105,9 @@ grid-area: p-d;
 border-radius: 25%;
 width: 200px;
 height: 200px;
+-webkit-box-shadow:0px 0px 50px 30px #ffffff ;
+-moz-box-shadow:0px 0px 50px 30px #ffffff ;
+box-shadow:0px 0px 50px 30px #ffffff ;
 }
 
 .triangulo-neon{
@@ -149,15 +165,20 @@ color: white
 grid-area: b;
 font-size: 20px;
 font-style: italic;
+color: white;
 border-style: solid;
 border-color: black;
 font-weight: bold;
+background-color:purple;
+}
+  
+.boton:hover{
+background-color:blue;
+transition:background-color 4s linear 0s;
 }
 
-
 body{
-background: rgb(32,36,0);
-background: linear-gradient(180deg, rgba(32,36,0,1) 25%, rgba(9,113,121,1) 50%, rgba(1,4,41,1) 75%, rgba(252,0,255,1) 100%);
+background-image: radial-gradient( circle farthest-corner at 32.7% 82.7%,  rgba(173,0,171,1) 8.3%, rgba(15,51,92,1) 79.4% );
 }
 
 @media screen and (max-width:1023px){
