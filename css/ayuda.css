@@ -1,21 +1,40 @@
-header nav li{
-position: relative;
-left: 82%;
-text-align: right;
-list-style-type: none;
+.grid1{
 display: inline;
-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+list-style-type: none;
+display: flex;
+column-gap: 25px;
+justify-content: right;
 }
 
-main h1{
+.grid2{
+min-height: 828px;
+grid-template-columns: repeat(16%);
+grid-template-rows: 20% 20% 10% 20% 20%;
+justify-items: center;
+align-items:center;
+display: grid;
+grid-template-areas:
+". . t t . ."
+". . s s . ."
+". b b b b ."
+". t1 t2 t3 t4 ."
+". s1 s2 s3 s4 ."
+;
+}
+
+.grid3{
+width: 100%;
+min-height: 50px;
+justify-content: center;
+align-items: center;
+background-color: grey;
+column-gap: 25px;
+display: flex;
+}
+
+.titulo{
+grid-area: t;
 text-align: center;
-position: absolute; 
-left: 32%;
-bottom: 61%;
-padding: 1%;
-border: 15%;
-margin: 10%;
-border: 10%;
 font-size: 400%;
 font-style: italic;
 color: rgb(255, 0, 242);
@@ -23,15 +42,9 @@ border-style: solid;
 background-color: white;
 }
 
-main h2{
+.subtitulo{
+grid-area: s;
 text-align: center;
-position: absolute; 
-left: 23%;
-bottom: 40%;
-padding: 1%;
-border: 15%;
-margin: 10%;
-border: 10%;
 font-size: 400%;
 font-style: italic;
 color: rgb(255, 0, 242);
@@ -39,28 +52,16 @@ border-style: solid;
 background-color: white;
 }
 
-main input{
+.buscador{
+grid-area: b;
 text-align: left;
-position: absolute; 
-left: 19%;
-bottom: 28%;
-padding: 0.7%;
-border: 15%;
-margin: 10%;
-border: 10%;
 width: 40%;
 font-style: italic;
 }
 
 .text1{
+grid-area: t1;
 text-align: center;
-position: absolute; 
-left: 22%;
-bottom: 20%;
-padding: 0.5%;
-border: 15%;
-margin: 10%;
-border: 10%;
 font-size: 100%;
 width: 5.2%;
 font-style: italic;
@@ -70,14 +71,8 @@ background-color: white;
 }
 
 .text2{
+grid-area: t2;
 text-align: center;
-position: absolute; 
-left: 32%;
-bottom: 20%;
-padding: 0.5%;
-border: 15%;
-margin: 10%;
-border: 10%;
 font-size: 100%;
 width: 5.2%;
 font-style: italic;
@@ -87,14 +82,8 @@ background-color: white;
 }
 
 .text3{
+grid-area: t3;
 text-align: center;
-position: absolute; 
-left: 42%;
-bottom: 20%;
-padding: 0.5%;
-border: 15%;
-margin: 10%;
-border: 10%;
 font-size: 100%;
 width: 5.2%;
 font-style: italic;
@@ -104,14 +93,8 @@ background-color: white;
 }
 
 .text4{
+grid-area: t4;
 text-align: center;
-position: absolute; 
-left: 52%;
-bottom: 20%;
-padding: 0.5%;
-border: 15%;
-margin: 10%;
-border: 10%;
 font-size: 100%;
 width: 5.2%;
 font-style: italic;
@@ -121,72 +104,44 @@ background-color: white;
 }
 
 .selector1{
+grid-area: s1;
 text-align: center;
-position: absolute; 
-left: 52%;
-bottom: 15%;
-padding: 0.5%;
-border: 15%;
-margin: 10%;
-border: 10%;
 font-size: 100%;
 font-style: italic;
 }
 
 .selector2{
+grid-area: s2;
 text-align: center;
-position: absolute; 
-left: 22%;
-bottom: 15%;
-padding: 0.5%;
-border: 15%;
-margin: 10%;
-border: 10%;
 font-size: 100%;
 font-style: italic;
 }
 
 .selector3{
+grid-area: s3;
 text-align: center;
-position: absolute; 
-left: 32%;
-bottom: 15%;
-padding: 0.5%;
-border: 15%;
-margin: 10%;
-border: 10%;
 font-size: 100%;
 font-style: italic;
 }
 
 .selector4{
+grid-area: s4;
 text-align: center;
-position: absolute; 
-left: 42%;
-bottom: 15%;
-padding: 0.5%;
-border: 15%;
-margin: 10%;
-border: 10%;
 font-size: 100%;
 font-style: italic;
 }
 
 body{
-background-image: url(https://static.vecteezy.com/system/resources/previews/002/756/238/large_2x/question-mark-low-poly-abstract-question-sign-ask-symbol-help-support-faq-problem-symbol-think-education-concept-confusion-search-illustration-or-background-vector.jpg);
-background-size: 90%;
-background-position-y: 13%;
-background-position-x: 45%;
+    background-image: radial-gradient( circle farthest-corner at 32.7% 82.7%,  rgba(173,0,171,1) 8.3%, rgba(15,51,92,1) 79.4% );
 }
-
-footer{
-position: absolute;
-text-align: center;
-right: -10%;
-bottom: -20.5%;
-padding: 1%;
-border: 15%;
-margin: 10%;
-width: 100%;
-background-color: grey;
-}
+        
+@media screen and (max-width:1023px){
+    .body{
+        background-color: rgb(255, 0, 242);
+        }
+    }
+@media screen and (max-width:600px){
+    .body{
+        background-color: rgb(255, 0, 242);
+        }
+    }

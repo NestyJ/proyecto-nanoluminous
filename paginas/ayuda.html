@@ -12,28 +12,33 @@
     <style>
         a {color: aliceblue;}
     </style>
-    <header>
+     <header>
         <nav>
-            <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="tienda.html">Tienda</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-                <li><a href="ayuda.html">Ayuda</a></li>
-                <li><a href="iniciar-sesion.html">Iniciar-sesion</a></li>
+            <ul class="grid1">
+                <li class="nav_item"><a class="nav_enlace1" href="../index.html">Inicio</a></li>
+                <li class="nav_item"><a class="nav_enlace2" href="tienda.html">Tienda</a></li>
+                <li class="nav_item"><a class="nav_enlace3" href="contacto.html">Contacto</a></li>
+                <li class="nav_item"><a class="nav_enlace4" href="ayuda.html">Ayuda</a></li>
+                <li class="nav_item"><a class="nav_enlace5" href="iniciar-sesion.html">Iniciar-sesion</a></li>
             </ul>
-        </nav>
-        
-
+        </nav> 
     </header>
 
     <main>
-        <h1>AYUDA</h1>
-        <h2>¿Como te ayudamos?</h2>
-        <input type="search" placeholder="search">
+        <div class="grid2">
+            <h1 class="titulo">AYUDA</h1>
 
-        <p class="text1">Post-Venta</p>
-            <form action="">
-                <select class="selector1" name="ad" onchange="crearlink(this.form)">
+            <h2 class="subtitulo">¿Como te ayudamos?</h2>
+
+            <input class="buscador" type="search" placeholder="search">
+
+            <p class="text1">Post-Venta</p>
+            <p class="text2">Compra</p>
+            <p class="text3">Usuario</p>
+            <p class="text4">Otros</p>
+
+            <form class="selector1" action="">
+                <select name="ad" onchange="crearlink(this.form)">
                     <option selected>Seleccione</option>
                     <option value="1.htm">texto 1</option>
                     <option value="2.htm">texto 2</option>
@@ -41,9 +46,8 @@
                 </select>
             </form>
 
-        <p class="text2">Compra</p>
-            <form action="">
-                <select class="selector2" name="ad" onchange="crearlink(this.form)">
+            <form class="selector2" action="">
+                <select  name="ad" onchange="crearlink(this.form)">
                     <option selected>Seleccione</option>
                     <option value="1.htm">texto 1</option>
                     <option value="2.htm">texto 2</option>
@@ -51,32 +55,31 @@
                 </select>
             </form>
 
-        <p class="text3">Usuario</p>
-            <form action="">
-                <select class="selector3" name="ad" onchange="crearlink(this.form)">
+            <form class="selector3" action="">
+                <select  name="ad" onchange="crearlink(this.form)">
                     <option selected>Seleccione</option>
                     <option value="1.htm">texto 1</option>
                     <option value="2.htm">texto 2</option>
                     <option value="3.htm">texto 3</option>
                 </select>
             </form>
-
-        <p class="text4">Otros</p>
-            <form action="">
-                <select class="selector4" name="ad" onchange="crearlink(this.form)">
+            
+            <form class="selector4">
+                <select  name="ad" onchange="crearlink(this.form)">
                     <option selected>Seleccione</option>
                     <option value="1.htm">texto 1</option>
                     <option value="2.htm">texto 2</option>
                     <option value="3.htm">texto 3</option>
                 </select>
             </form>
+        </div>
     </main>
 
-    <footer>
-        <a href="https://www.whatsapp.com/?lang=es">Whatsapp</a>
-        <a href="https://twitter.com/?lang=es">Twitter</a>
-        <a href="https://es-la.facebook.com/">Facebook</a>
-        <a href="https://www.instagram.com/nano.led/?hl=es">Instagram</a>
+    <footer class="grid3">
+        <div class="grid2_hijo1"><a href="https://www.whatsapp.com/?lang=es">Whatsapp</a></div>
+        <div class="grid2_hijo2"><a href="https://twitter.com/?lang=es">Twitter</a></div>
+        <div class="grid2_hijo3"><a href="https://es-la.facebook.com/">Facebook</a></div>
+        <div class="grid2_hijo4"><a href="https://www.instagram.com/nano.led/?hl=es">Instagram</a></div>  
     </footer>
     
 </body>
