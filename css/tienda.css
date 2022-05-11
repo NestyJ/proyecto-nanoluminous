@@ -14,7 +14,7 @@ justify-items: center;
 align-items:center;
 display: grid;
 grid-template-areas:
-". . t . ."
+"gif . t . ."
 ". search search search ."
 "b1 b2 b3 b4 ."
 "i1 i2 i3 i4 i5"
@@ -30,6 +30,39 @@ align-items: center;
 background-color: grey;
 column-gap: 25px;
 display: flex;
+}
+
+
+
+.animacion{
+grid-area: gif;
+justify-self: left;
+width: 100px;
+height: 100px;
+-webkit-animation: efecto 2s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+animation: efecto 2s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+animation-iteration-count: infinite;
+}
+    
+@-webkit-keyframes efecto {
+    0% {
+        -webkit-transform: rotateY(0);
+                transform: rotateY(0);
+    }
+    100% {
+        -webkit-transform: rotateY(360deg);
+                transform: rotateY(360deg);
+    }
+      }
+    @keyframes efecto {
+    0% {
+        -webkit-transform: rotateY(0);
+                transform: rotateY(0);
+    }
+    100% {
+        -webkit-transform: rotateY(360deg);
+                transform: rotateY(360deg);
+    }
 }
 
 .titulo{
