@@ -8,23 +8,18 @@ justify-content: right;
 
 .grid2{
 min-height: 828px;
-grid-template-columns: 20% 20% 10% 30% 20%;
-grid-template-rows: 20% 15% 15% 3% 5% 3% 5% 3% 5% 5%;
+grid-template-columns: 20% 20% 20% 20% 20%;
+grid-template-rows: 20% 10% 15% 20% 20% 20%;
 justify-items: center;
 align-items:center;
 display: grid;
 grid-template-areas:
-". t t t ."
+"gif t t t ."
 ". s . . ."
 ". p p p ."
-". n c c gif"
-". n2 c c gif"
-". a c c gif"
-". a2 c c gif"
-". e c c gif"
-". e2 c c gif"
-". . b . gif"
-
+". b b b ."
+". b b b ."
+". b b b ."
 ;
 }
 
@@ -36,6 +31,12 @@ align-items: center;
 background-color: grey;
 column-gap: 25px;
 display: flex;
+}
+
+.base{
+grid-area: b;
+justify-self: center;
+align-self: start;
 }
 
 .titulo{
@@ -161,12 +162,7 @@ animation-iteration-count: infinite;
 }
 
 .boton{
-grid-area: b;
-font-size: 100%;
-font-weight: bold;
-border-style: solid;
-border-color: black;
-justify-self: left;
+grid-area: bo;
 }
 
 body{
