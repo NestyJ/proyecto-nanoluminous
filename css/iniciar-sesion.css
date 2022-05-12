@@ -1,30 +1,22 @@
 .grid1{
-display: inline;
-list-style-type: none;
-display: flex;
-column-gap: 25px;
-justify-content: right;
-}
-
-.grid2{
 min-height: 828px;
 grid-template-columns: 20% 20% 20% 20% 20%;
 grid-template-rows: 25% 7% 7% 7% 7% 7% 7%;
-justify-items: left;
+justify-items: center;
 align-items:end;
 display: grid;
 grid-template-areas:
 ". l1 t l2 ."
-". t1 t1 t1 ."
-". i1 i1 i1 ."
-". t2 t2 t2 ."
-". i2 i2 i2 ."
-". a1 a2 . ."
-". b gif . ."
+"ba ba ba ba ba"
+"ba ba ba ba ba"
+"ba ba ba ba ba"
+"ba ba ba ba ba"
+"ba ba ba ba ba"
+". . a1 a2 ."
 ;
 }
 
-.grid3{
+.grid2{
 width: 100%;
 min-height: 50px;
 justify-content: center;
@@ -63,7 +55,13 @@ height: 120px;
 border-radius: 50%;
 }
 
-.text1{
+.base{
+grid-area: ba;
+background-color: white;
+padding: 40px;
+}
+
+/* .text1{
 justify-self:left;
 grid-area: t1;
 font-style:initial;
@@ -99,7 +97,7 @@ font-size: 150%;
 width: 99%;
 border-style: solid;
 border-color: black;
-}
+} */
 
 .a1{
 justify-self: left;
@@ -114,18 +112,10 @@ align-self: start;
 grid-area: a2;
 color: rgb(238, 255, 0);
 }
-    
-.boton{
-justify-self: left;
-grid-area: b;
-font-style: italic;
-font-size: 30px;
-border-style: solid;
-border-color: black;
-}
 
-.flecha-neon{
-grid-area: gif;
+
+/* .flecha-neon{
+transform: translateX(500px) translateY(500px);
 width: 70px;
 height: 40px;
 -webkit-animation: efecto 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite both;
@@ -152,7 +142,7 @@ animation: efecto 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite both;
               transform: translateX(-100px);
     }
   }
-  
+   */
   
 
 body{

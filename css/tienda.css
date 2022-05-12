@@ -1,15 +1,7 @@
 .grid1{
-display: inline;
-list-style-type: none;
-display: flex;
-column-gap: 25px;
-justify-content: right;
-}
-
-.grid2{
 min-height: 828px;
 grid-template-columns: 20% 20% 20% 20% 20%;
-grid-template-rows: 15% 20% 20% 30% 5%;
+grid-template-rows: 20% 20% 20% 30% 5%;
 justify-items: center;
 align-items:center;
 display: grid;
@@ -22,7 +14,7 @@ grid-template-areas:
 ;
 }
 
-.grid3{
+.grid2{
 width: 100%;
 min-height: 50px;
 justify-content: center;
@@ -131,35 +123,25 @@ font-weight: bold;
 
 .imagen1{
 grid-area: i1 ;
-/* width: 150px;
-height: 150px; */
 }
 
 .imagen2{
 grid-area: i2 ;
-/* width: 150px;
-height: 150px; */
 }
 
 .imagen3{
 grid-area: i3 ;
-/* width: 150px;
-height: 150px; */
 }
 
 .imagen4{
 grid-area: i4 ;
-/* width: 150px;
-height: 150px; */
 }
 
 .imagen5{
 grid-area: i5 ;
-/*width: 150px;
-height: 150px; */
 }
 
-.boton-compra1{
+/* .boton-compra1{
 grid-area: bc1 ;
 border-style: solid;
 border-color: black;
@@ -187,8 +169,7 @@ border-color: black;
 grid-area: bc5 ;
 border-style: solid;
 border-color: black;
-}
-
+} */
 
 body{
 background-image: radial-gradient( circle farthest-corner at 32.7% 82.7%,  rgba(173,0,171,1) 8.3%, rgba(15,51,92,1) 79.4% );

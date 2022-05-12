@@ -1,12 +1,4 @@
 .grid1{
-display: inline;
-list-style-type: none;
-display: flex;
-column-gap: 25px;
-justify-content: right;
-}
-
-.grid2{
 min-height: 828px;
 grid-template-columns: 15% 20% 30% 20% 15%;
 grid-template-rows: 20% 55% 5% 5% 5% 8%;
@@ -23,7 +15,7 @@ grid-template-areas:
 ;
 }
 
-.grid3{
+.grid2{
 width: 100%;
 min-height: 50px;
 justify-content: center;
@@ -50,14 +42,12 @@ background-color: white;
 border-style: solid;
 }
 
-
 .logo2{
 justify-self: left;
 grid-area: l2;
 border-radius: 50%;
 width: 120px;
 height: 120px;
-
 }
 
 .imagen1{

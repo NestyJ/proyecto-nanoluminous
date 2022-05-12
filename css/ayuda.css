@@ -1,15 +1,7 @@
 .grid1{
-display: inline;
-list-style-type: none;
-display: flex;
-column-gap: 25px;
-justify-content: right;
-}
-
-.grid2{
 min-height: 828px;
 grid-template-columns: 10% 20% 20% 20% 20% 10%;
-grid-template-rows: 10% 20% 20% 5% 10%;
+grid-template-rows: 20% 20% 20% 5% 10%;
 justify-items: center;
 align-items:center;
 display: grid;
@@ -22,7 +14,7 @@ grid-template-areas:
 ;
 }
 
-.grid3{
+.grid2{
 width: 100%;
 min-height: 50px;
 justify-content: center;

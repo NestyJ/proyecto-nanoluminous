@@ -1,15 +1,7 @@
 .grid1{
-display: inline;
-list-style-type: none;
-display: flex;
-column-gap: 25px;
-justify-content: right;
-}
-
-.grid2{
 min-height: 828px;
 grid-template-columns: 20% 20% 20% 20% 20%;
-grid-template-rows: 20% 10% 15% 20% 20% 20%;
+grid-template-rows: 20% 10% 10% 20% 20% 20%;
 justify-items: center;
 align-items:center;
 display: grid;
@@ -23,7 +15,7 @@ grid-template-areas:
 ;
 }
 
-.grid3{
+.grid2{
 width: 100%;
 min-height: 50px;
 justify-content: center;
@@ -31,12 +23,6 @@ align-items: center;
 background-color: grey;
 column-gap: 25px;
 display: flex;
-}
-
-.base{
-grid-area: b;
-justify-self: center;
-align-self: start;
 }
 
 .titulo{
@@ -62,7 +48,15 @@ color:white;
 font-style: italic;
 }
 
-.nombre{
+.base{
+grid-area: b;
+justify-self: center;
+align-self: start;
+background-color: white;
+padding: 40px;
+}
+
+/* .nombre{
 grid-area: n;
 justify-self: left;
 text-align: left;
@@ -127,7 +121,7 @@ width: 570px;
 font-style: italic;
 border-style: solid;
 border-color: black;
-}
+} */
 
 .logo-gif{
 grid-area: gif;

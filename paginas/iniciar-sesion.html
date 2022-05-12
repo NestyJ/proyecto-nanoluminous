@@ -53,7 +53,7 @@
               </nav>
         </header>
         <main>
-            <div class="grid2">
+            <div class="grid1">
                 <img src="../imagenes/logo.jpeg"
                 alt="Logo"
                 class="logo1"
@@ -66,24 +66,34 @@
                 class="logo2"
                 >
 
-                <label class="text1" for="correo o usuario">Correo electronico o Usuario:</label>
-                <input class="input1" type="text" id="correo o usuario" placeholder="Correo electronico o Usuario">
-                <label class="text2" for="contraseña">Contraseña:</label>
-                <input class="input2" type="password" id="contraseña" placeholder="Contraseña">
+                <form class="base">
+                    <div>
+                      <label for="exampleInputEmail1" class="form-label">Email</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      <div id="emailHelp" class="form-text">Nunca compartiremos su correo electrónico con nadie más</div>
+                    </div>
+                    <div>
+                      <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div>
+                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                      <label class="form-check-label" for="exampleCheck1">Recordar</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Entrar</button>
+                  </form>
 
                 <a class="a1" href="iniciar-sesion.html">¿Has olvidado tu contraseña?</a>
                 <a class="a2" href="iniciar-sesion.html">Registrate</a>
                 
-                <button class="boton">Iniciar Sesion</button>
-
-                <img src="/imagenes/flecha neon.jpg"
+                <!-- <img src="/imagenes/flecha neon.jpg"
                  alt="gif"
                  class="flecha-neon"
-                 >
+                 > -->
             </div>
         </main>
 
-    <footer class="grid3">
+    <footer class="grid2">
         <div class="grid2_hijo1"><a href="https://www.whatsapp.com/?lang=es">Whatsapp</a></div>
         <div class="grid2_hijo2"><a href="https://twitter.com/?lang=es">Twitter</a></div>
         <div class="grid2_hijo3"><a href="https://es-la.facebook.com/">Facebook</a></div>
