@@ -9,7 +9,7 @@ justify-content: right;
 .grid2{
 min-height: 828px;
 grid-template-columns: 20% 20% 20% 20% 20%;
-grid-template-rows: 15% 20% 20% 20% 5%;
+grid-template-rows: 15% 20% 20% 30% 5%;
 justify-items: center;
 align-items:center;
 display: grid;
@@ -94,6 +94,7 @@ border-style: solid;
 border-color: black;
 font-size: 100%;
 justify-self: right;
+align-self: start;
 font-weight: bold;
 
 }
@@ -104,6 +105,7 @@ border-style: solid;
 border-color: black;
 font-size: 100%;
 justify-self: right;
+align-self: start;
 font-weight: bold;
 }
 
@@ -113,6 +115,7 @@ border-style: solid;
 border-color: black;
 font-size: 100%;
 justify-self: right;
+align-self: start;
 font-weight: bold;
 }
 
@@ -122,37 +125,38 @@ border-style: solid;
 border-color: black;
 font-size: 100%;
 justify-self: right;
+align-self: start;
 font-weight: bold;
 }
 
 .imagen1{
 grid-area: i1 ;
-width: 150px;
-height: 150px;
+/* width: 150px;
+height: 150px; */
 }
 
 .imagen2{
 grid-area: i2 ;
-width: 150px;
-height: 150px;
+/* width: 150px;
+height: 150px; */
 }
 
 .imagen3{
 grid-area: i3 ;
-width: 150px;
-height: 150px;
+/* width: 150px;
+height: 150px; */
 }
 
 .imagen4{
 grid-area: i4 ;
-width: 150px;
-height: 150px;
+/* width: 150px;
+height: 150px; */
 }
 
 .imagen5{
 grid-area: i5 ;
-width: 150px;
-height: 150px;
+/*width: 150px;
+height: 150px; */
 }
 
 .boton-compra1{
