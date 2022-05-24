@@ -1,172 +1,175 @@
-.grid1{
-min-height: 828px;
-grid-template-columns: 10% 20% 20% 20% 20% 10%;
-grid-template-rows: 20% 20% 20% 5% 10%;
-justify-items: center;
-align-items:center;
-display: grid;
-grid-template-areas:
-"gif t t t t ."
-". s s s s ."
-". b b b b ."
-". t1 t2 t3 t4 ."
-". s1 s2 s3 s4 ."
-;
+.grid-ayuda {
+  min-height: 828px;
+  grid-template-columns: 10% 20% 20% 20% 20% 10%;
+  grid-template-rows: 20% 20% 20% 5% 10%;
+  justify-items: center;
+  align-items: center;
+  display: grid;
+  grid-template-areas:
+    "gif t t t t ."
+    ". s s s s ."
+    ". b b b b ."
+    ". t1 t2 t3 t4 ."
+    ". s1 s2 s3 s4 .";
 }
 
-.grid2{
-width: 100%;
-min-height: 50px;
-justify-content: center;
-align-items: center;
-background-color: grey;
-column-gap: 25px;
-display: flex;
+.grid-footer {
+  width: 100%;
+  min-height: 50px;
+  justify-content: center;
+  align-items: center;
+  background-color: grey;
+  column-gap: 25px;
+  display: flex;
 }
 
-.logo-gif{
-grid-area: gif;
-justify-self: left;
-border-radius: 50%;
-width: 100px;
-height: 100px;
--webkit-animation: efecto 2s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
-animation: efecto 2s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
-animation-iteration-count: infinite;
+.logo-gif {
+  grid-area: gif;
+  justify-self: left;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  -webkit-animation: efecto 2s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
+  animation: efecto 2s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
+  animation-iteration-count: infinite;
 }
-        
+
 @-webkit-keyframes efecto {
-    0% {
-        -webkit-transform: rotateY(0);
-                transform: rotateY(0);
-    }
-    100% {
-        -webkit-transform: rotateY(360deg);
-                transform: rotateY(360deg);
-    }
-        }
-    @keyframes efecto {
-    0% {
-        -webkit-transform: rotateY(0);
-                transform: rotateY(0);
-    }
-    100% {
-        -webkit-transform: rotateY(360deg);
-                transform: rotateY(360deg);
-    }
+  0% {
+    -webkit-transform: rotateY(0);
+    transform: rotateY(0);
+  }
+  100% {
+    -webkit-transform: rotateY(360deg);
+    transform: rotateY(360deg);
+  }
+}
+@keyframes efecto {
+  0% {
+    -webkit-transform: rotateY(0);
+    transform: rotateY(0);
+  }
+  100% {
+    -webkit-transform: rotateY(360deg);
+    transform: rotateY(360deg);
+  }
 }
 
-.titulo{
-grid-area: t;
-text-align: center;
-font-size: 400%;
-font-style: italic;
-color: rgb(255, 0, 242);
-border-style: solid;
-background-color: white;
+.titulo {
+  grid-area: tit;
+  text-align: center;
+  font-size: 400%;
+  font-style: italic;
+  color: rgb(255, 0, 242);
+  border-style: solid;
+  background-color: white;
 }
 
-.subtitulo{
-grid-area: s;
-text-align: center;
-font-size: 400%;
-font-style: italic;
-color: rgb(255, 0, 242);
-border-style: solid;
-background-color: white;
+.subtitulo {
+  grid-area: s;
+  text-align: center;
+  font-size: 400%;
+  font-style: italic;
+  color: rgb(255, 0, 242);
+  border-style: solid;
+  background-color: white;
 }
 
-.buscador{
-grid-area: b;
-text-align: left;
-width: 800px;
-font-style: italic;
-font-size: 20px;
+.buscador {
+  grid-area: bu;
+  text-align: left;
+  width: 800px;
+  font-style: italic;
+  font-size: 20px;
 }
 
-.text1{
-grid-area: t1;
-text-align: center;
-font-size: 30px;
-font-style: italic;
-color: rgb(255, 0, 242);
-border-style: solid;
-background-color: white;
+.text1 {
+  grid-area: text1;
+  text-align: center;
+  font-size: 30px;
+  font-style: italic;
+  color: rgb(255, 0, 242);
+  border-style: solid;
+  background-color: white;
 }
 
-.text2{
-grid-area: t2;
-text-align: center;
-font-size: 30px;
-font-style: italic;
-color: rgb(255, 0, 242);
-border-style: solid;
-background-color: white;
+.text2 {
+  grid-area: text2;
+  text-align: center;
+  font-size: 30px;
+  font-style: italic;
+  color: rgb(255, 0, 242);
+  border-style: solid;
+  background-color: white;
 }
 
-.text3{
-grid-area: t3;
-text-align: center;
-font-size: 30px;
-font-style: italic;
-color: rgb(255, 0, 242);
-border-style: solid;
-background-color: white;
+.text3 {
+  grid-area: text3;
+  text-align: center;
+  font-size: 30px;
+  font-style: italic;
+  color: rgb(255, 0, 242);
+  border-style: solid;
+  background-color: white;
 }
 
-.text4{
-grid-area: t4;
-text-align: center;
-font-size: 30px;
-font-style: italic;
-color: rgb(255, 0, 242);
-border-style: solid;
-background-color: white;
+.text4 {
+  grid-area: text4;
+  text-align: center;
+  font-size: 30px;
+  font-style: italic;
+  color: rgb(255, 0, 242);
+  border-style: solid;
+  background-color: white;
 }
 
-.selector1{
-grid-area: s1;
-text-align: center;
-transform:scale(1.5);
-font-style: italic;
-border-style:inset
+.selector1 {
+  grid-area: sel1;
+  text-align: center;
+  transform: scale(1.5);
+  font-style: italic;
+  border-style: inset;
 }
 
-.selector2{
-grid-area: s2;
-text-align: center;
-transform:scale(1.5);
-font-style:italic;
-border-style:inset
+.selector2 {
+  grid-area: sel2;
+  text-align: center;
+  transform: scale(1.5);
+  font-style: italic;
+  border-style: inset;
 }
 
-.selector3{
-grid-area: s3;
-text-align: center;
-transform:scale(1.5);
-font-style: italic;
-border-style:inset
+.selector3 {
+  grid-area: sel3;
+  text-align: center;
+  transform: scale(1.5);
+  font-style: italic;
+  border-style: inset;
 }
 
-.selector4{
-grid-area: s4;
-text-align: center;
-transform:scale(1.5);
-font-style: italic;
-border-style:inset
+.selector4 {
+  grid-area: sel4;
+  text-align: center;
+  transform: scale(1.5);
+  font-style: italic;
+  border-style: inset;
 }
 
-body{
-    background-image: radial-gradient( circle farthest-corner at 32.7% 82.7%,  rgba(173,0,171,1) 8.3%, rgba(15,51,92,1) 79.4% );
+body {
+  background-image: radial-gradient(
+    circle farthest-corner at 32.7% 82.7%,
+    rgba(173, 0, 171, 1) 8.3%,
+    rgba(15, 51, 92, 1) 79.4%
+  );
 }
-        
-@media screen and (max-width:1023px){
-    .body{
-        background-color: rgb(255, 0, 242);
-        }
-    }
-@media screen and (max-width:600px){
-    .body{
-        background-color: rgb(255, 0, 242);
-        }
-    }
+
+@media screen and (max-width: 1023px) {
+  .body {
+    background-color: rgb(255, 0, 242);
+  }
+}
+@media screen and (max-width: 600px) {
+  .body {
+    background-color: rgb(255, 0, 242);
+  }
+}

@@ -1,35 +1,7 @@
-.grid1{
-min-height: 828px;
-grid-template-columns: 20% 20% 20% 20% 20%;
-grid-template-rows: 25% 7% 7% 7% 7% 7% 7%;
-justify-items: center;
-align-items:end;
-display: grid;
-grid-template-areas:
-". l1 t l2 ."
-"ba ba ba ba ba"
-"ba ba ba ba ba"
-"ba ba ba ba ba"
-"ba ba ba ba ba"
-"ba ba ba ba ba"
-". . a1 a2 ."
-;
-}
-
-.grid2{
-width: 100%;
-min-height: 50px;
-justify-content: center;
-align-items: center;
-background-color: grey;
-column-gap: 25px;
-display: flex;
-}
-
 .logo1{
 justify-self: right;
 align-self: start;
-grid-area: l1;
+grid-area: la1;
 width: 120px;
 height: 120px;
 border-radius: 50%;
@@ -38,7 +10,7 @@ border-radius: 50%;
 .titulo{
 justify-self: center;
 align-self:start;
-grid-area: t;
+grid-area: titulo;
 font-size: 50px;
 font-style: italic;
 color: rgb(255, 0, 242);
@@ -49,7 +21,7 @@ border-style: solid;
 .logo2{
 align-self: start;
 justify-self: left;
-grid-area: l2;
+grid-area: la2;
 width: 120px;
 height: 120px;
 border-radius: 50%;
@@ -61,43 +33,6 @@ background-color: white;
 padding: 40px;
 }
 
-/* .text1{
-justify-self:left;
-grid-area: t1;
-font-style:initial;
-font-size: 250%;
-color: white;
-}
-
-.text2{
-justify-self: left;
-grid-area: t2;
-font-style:initial;
-font-size: 250%;
-color: white;
-}
-
-.input1{
-justify-self: left;
-align-self: start;
-grid-area: i1;
-font-style: italic;
-font-size: 150%;
-width: 99%;
-border-style: solid;
-border-color: black;
-}
-
-.input2{
-justify-self: left;
-align-self: start;
-grid-area: i2;
-font-style: italic;
-font-size: 150%;
-width: 99%;
-border-style: solid;
-border-color: black;
-} */
 
 .a1{
 justify-self: left;
@@ -114,48 +49,3 @@ color: rgb(238, 255, 0);
 }
 
 
-/* .flecha-neon{
-transform: translateX(500px) translateY(500px);
-width: 70px;
-height: 40px;
--webkit-animation: efecto 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite both;
-animation: efecto 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite both;
-}
-
- @-webkit-keyframes efecto {
-    0% {
-      -webkit-transform: translateX(0);
-              transform: translateX(0);
-    }
-    100% {
-      -webkit-transform: translateX(-100px);
-              transform: translateX(-100px);
-    }
-  }
-  @keyframes efecto {
-    0% {
-      -webkit-transform: translateX(0);
-              transform: translateX(0);
-    }
-    100% {
-      -webkit-transform: translateX(-100px);
-              transform: translateX(-100px);
-    }
-  }
-   */
-  
-
-body{
-background-image: radial-gradient( circle farthest-corner at 32.7% 82.7%,  rgba(173,0,171,1) 8.3%, rgba(15,51,92,1) 79.4% );
-}
-        
-@media screen and (max-width:1023px){
-    .body{
-        background-color: rgb(255, 0, 242);
-        }
-    }
-@media screen and (max-width:600px){
-    .body{
-        background-color: rgb(255, 0, 242);
-        }
-    }

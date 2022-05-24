@@ -1,29 +1,3 @@
-.grid1{
-min-height: 828px;
-grid-template-columns: 20% 20% 20% 20% 20%;
-grid-template-rows: 20% 20% 20% 30% 5%;
-justify-items: center;
-align-items:center;
-display: grid;
-grid-template-areas:
-"gif . t . ."
-". search search search ."
-"b1 b2 b3 b4 ."
-"i1 i2 i3 i4 i5"
-"bc1 bc2 bc3 bc4 bc5"
-;
-}
-
-.grid2{
-width: 100%;
-min-height: 50px;
-justify-content: center;
-align-items: center;
-background-color: grey;
-column-gap: 25px;
-display: flex;
-}
-
 .logo-gif{
 grid-area: gif;
 justify-self: left;
@@ -57,7 +31,7 @@ animation-iteration-count: infinite;
 }
 
 .titulo{
-grid-area: t;
+grid-area: ti;
 font-size: 80px;
 font-style: italic;
 color: rgb(255, 0, 242);
@@ -141,35 +115,6 @@ grid-area: i4 ;
 grid-area: i5 ;
 }
 
-/* .boton-compra1{
-grid-area: bc1 ;
-border-style: solid;
-border-color: black;
-}
-
-.boton-compra2{
-grid-area: bc2 ;
-border-style: solid;
-border-color: black;
-}
-
-.boton-compra3{
-grid-area: bc3 ;
-border-style: solid;
-border-color: black;
-}
-
-.boton-compra4{
-grid-area: bc4 ;
-border-style: solid;
-border-color: black;
-}
-
-.boton-compra5{
-grid-area: bc5 ;
-border-style: solid;
-border-color: black;
-} */
 
 body{
 background-image: radial-gradient( circle farthest-corner at 32.7% 82.7%,  rgba(173,0,171,1) 8.3%, rgba(15,51,92,1) 79.4% );

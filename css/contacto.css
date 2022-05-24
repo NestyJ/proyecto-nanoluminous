@@ -1,4 +1,4 @@
-.grid1{
+.grid-contacto{
 min-height: 828px;
 grid-template-columns: 20% 20% 20% 20% 20%;
 grid-template-rows: 20% 10% 10% 20% 20% 20%;
@@ -15,7 +15,7 @@ grid-template-areas:
 ;
 }
 
-.grid2{
+.grid-footer{
 width: 100%;
 min-height: 50px;
 justify-content: center;
@@ -26,7 +26,7 @@ display: flex;
 }
 
 .titulo{
-grid-area: t;
+grid-area: titu;
 font-size: 400%;
 font-style: italic;
 color: rgb(255, 0, 242);
@@ -35,7 +35,7 @@ background-color: white;
 }
 
 .subtitulo{
-grid-area: s;
+grid-area: subt;
 justify-self: left;
 color: white;
 font-size: 300%;
@@ -49,79 +49,12 @@ font-style: italic;
 }
 
 .base{
-grid-area: b;
+grid-area: base;
 justify-self: center;
 align-self: start;
 background-color: white;
 padding: 40px;
 }
-
-/* .nombre{
-grid-area: n;
-justify-self: left;
-text-align: left;
-font-size: 150%;
-color: white;
-}
-
-.nombre2{
-grid-area: n2;
-text-align:left;
-justify-self: left;
-width: 270px;
-font-size: 20px;
-font-style: italic;
-border-style: solid;
-border-color: black;
-}
-
-.apellido{
-grid-area: a;
-text-align: left;
-justify-self: left;
-font-size: 150%;
-color: white;
-}
-
-.apellido2{
-grid-area: a2;
-text-align:left;
-justify-self: left;
-width: 270px;
-font-size: 20px;
-font-style: italic;
-border-style: solid;
-border-color: black;
-}
-
-.email{
-grid-area: e;
-text-align: left;
-justify-self: left;
-font-size: 150%;
-color: white;
-}
-
-.email2{
-grid-area: e2;
-text-align:left;
-justify-self: left;
-width: 270px;
-font-size: 20px;
-font-style: italic;
-border-style: solid;
-border-color: black;
-}
-
-.comentar{
-grid-area: c;
-text-align:left;
-height: 180px;
-width: 570px;
-font-style: italic;
-border-style: solid;
-border-color: black;
-} */
 
 .logo-gif{
 grid-area: gif;
