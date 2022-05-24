@@ -1,0 +1,61 @@
+.titulo1 {
+  grid-area: t;
+  font-size: 80px;
+  font-style: italic;
+  color: rgb(255, 0, 242);
+  background-color: white;
+  border-style: solid;
+}
+.titulo2 {
+  grid-area: ti;
+  font-size: 80px;
+  font-style: italic;
+  color: rgb(255, 0, 242);
+  background-color: white;
+  border-style: solid;
+}
+.titulo3 {
+  grid-area: tit;
+  text-align: center;
+  font-size: 400%;
+  font-style: italic;
+  color: rgb(255, 0, 242);
+  border-style: solid;
+  background-color: white;
+}
+.subtitulo1 {
+  grid-area: s;
+  text-align: center;
+  font-size: 400%;
+  font-style: italic;
+  color: rgb(255, 0, 242);
+  border-style: solid;
+  background-color: white;
+}
+
+.titulo4 {
+  grid-area: titu;
+  font-size: 400%;
+  font-style: italic;
+  color: rgb(255, 0, 242);
+  border-style: solid;
+  background-color: white;
+}
+
+.subtitulo2 {
+  grid-area: subt;
+  justify-self: left;
+  color: white;
+  font-size: 300%;
+}
+
+.titulo5 {
+  justify-self: center;
+  align-self: start;
+  grid-area: titulo;
+  font-size: 50px;
+  font-style: italic;
+  color: rgb(255, 0, 242);
+  background-color: white;
+  border-style: solid;
+}

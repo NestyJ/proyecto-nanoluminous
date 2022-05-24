@@ -1,0 +1,108 @@
+.boton1 {
+  grid-area: b;
+  font-size: 20px;
+  font-style: italic;
+  color: white;
+  border-style: solid;
+  border-color: black;
+  font-weight: bold;
+  background-color: purple;
+}
+
+.boton:hover {
+  background-color: blue;
+  transition: background-color 4s linear 0s;
+}
+
+.buscador1 {
+  grid-area: search;
+  align-self: flex-end;
+  font-size: 20px;
+  width: 800px;
+  font-style: italic;
+  border-style: solid;
+  font-weight: bold;
+}
+.boton2 {
+  grid-area: b1;
+  border-style: solid;
+  border-color: black;
+  font-size: 100%;
+  justify-self: right;
+  align-self: start;
+  font-weight: bold;
+}
+
+.boton3 {
+  grid-area: b2;
+  border-style: solid;
+  border-color: black;
+  font-size: 100%;
+  justify-self: right;
+  align-self: start;
+  font-weight: bold;
+}
+
+.boton4 {
+  grid-area: b3;
+  border-style: solid;
+  border-color: black;
+  font-size: 100%;
+  justify-self: right;
+  align-self: start;
+  font-weight: bold;
+}
+
+.boton5 {
+  grid-area: b4;
+  border-style: solid;
+  border-color: black;
+  font-size: 100%;
+  justify-self: right;
+  align-self: start;
+  font-weight: bold;
+}
+
+.buscador2 {
+  grid-area: bu;
+  text-align: left;
+  width: 800px;
+  font-style: italic;
+  font-size: 20px;
+}
+
+.selector1 {
+  grid-area: sel1;
+  text-align: center;
+  transform: scale(1.5);
+  font-style: italic;
+  border-style: inset;
+}
+
+.selector2 {
+  grid-area: sel2;
+  text-align: center;
+  transform: scale(1.5);
+  font-style: italic;
+  border-style: inset;
+}
+
+.selector3 {
+  grid-area: sel3;
+  text-align: center;
+  transform: scale(1.5);
+  font-style: italic;
+  border-style: inset;
+}
+
+.selector4 {
+  grid-area: sel4;
+  text-align: center;
+  transform: scale(1.5);
+  font-style: italic;
+  border-style: inset;
+}
+
+.boton {
+  grid-area: bo;
+}

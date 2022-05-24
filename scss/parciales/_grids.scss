@@ -1,0 +1,93 @@
+.grid-index {
+  min-height: 828px;
+  grid-template-columns: 15% 20% 30% 20% 15%;
+  grid-template-rows: 20% 55% 5% 5% 5% 8%;
+  justify-items: center;
+  align-items: center;
+  display: grid;
+  grid-template-areas:
+    ". l1 t l2 ."
+    "p-i t1 i1 t2 p-d"
+    "p1 p1 p1 p1 p1"
+    "p2 p2 p2 p2 p2"
+    ". . b . ."
+    ". . tn . .";
+}
+
+.grid-tienda {
+  min-height: 828px;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 30% 5%;
+  justify-items: center;
+  align-items: center;
+  display: grid;
+  grid-template-areas:
+    "gifn . ti . ."
+    ". search search search ."
+    "b1 b2 b3 b4 ."
+    "i1 i2 i3 i4 i5"
+    "bc1 bc2 bc3 bc4 bc5";
+}
+
+.grid-ayuda {
+  min-height: 828px;
+  grid-template-columns: 10% 20% 20% 20% 20% 10%;
+  grid-template-rows: 20% 20% 20% 5% 10%;
+  justify-items: center;
+  align-items: center;
+  display: grid;
+  grid-template-areas:
+    "gif tit tit tit tit ."
+    ". s s s s ."
+    ". bu bu bu bu ."
+    ". text1 text2 text3 text4 ."
+    ". sel1 sel2 sel3 sel4 .";
+}
+
+.grid-contacto {
+  min-height: 828px;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 10% 10% 20% 20% 20%;
+  justify-items: center;
+  align-items: center;
+  display: grid;
+  grid-template-areas:
+    "gif titu titu titu ."
+    ". subt . . ."
+    ". p p p ."
+    ". base base base ."
+    ". base base base ."
+    ". base base base .";
+}
+
+.grid-iniciar-sesion {
+  min-height: 828px;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 25% 7% 7% 7% 7% 7% 7%;
+  justify-items: center;
+  align-items: end;
+  display: grid;
+  grid-template-areas:
+    ". la1 titulo la2 ."
+    "ba ba ba ba ba"
+    "ba ba ba ba ba"
+    "ba ba ba ba ba"
+    "ba ba ba ba ba"
+    "ba ba ba ba ba"
+    ". . a1 a2 .";
+}
+
+.grid-footer {
+  width: 100%;
+  min-height: 50px;
+  justify-content: center;
+  align-items: center;
+  background-color: grey;
+  column-gap: 25px;
+  display: flex;
+}
+
+.lista {
+  grid-area: lista;
+  list-style-type: none;
+}
