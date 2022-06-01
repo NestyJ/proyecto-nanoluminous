@@ -1,9 +1,9 @@
 .grid-index {
-  min-height: 828px;
+  min-height: 800px;
   grid-template-columns: 15% 20% 30% 20% 15%;
-  grid-template-rows: 55% 5% 5% 8% 8%;
+  grid-template-rows: 55% 10% 10% 10% 10%;
   justify-items: center;
-  align-items: center;
+  align-items: end;
   display: grid;
   grid-template-areas:
     "p-i t1 i1 t2 p-d"
@@ -16,6 +16,7 @@
 .flex-encabezado-index{
 display: flex;
 justify-content: center;
+margin-bottom: 40px;
 }
 
 .logo1 {
@@ -41,6 +42,46 @@ justify-content: center;
   border-radius: 50%;
   width: 120px;
   height: 120px;
+}
+
+.carousel-item{
+height: 600px;
+position: relative;
+bottom: -10px;
+left: 400px;
+}
+
+.carousel-caption{
+position: absolute;
+right: 1050px;
+}
+
+.habitacion1{
+position: absolute;
+background-position: center;
+background-size: cover;
+}
+
+.habitacion2{
+position: absolute;
+bottom: -520px;
+background-position: center;
+background-size: cover;
+}
+
+.habitacion3{
+position: absolute;
+bottom: -400px;
+background-position: center;
+background-size: cover;
+}
+
+.mensaje{
+text-align: center;
+font-size: 80px;
+font-family: 'Great Vibes', cursive;
+color: rgb(220, 226, 132);
+background-image:url(https://spzeb3r4asz2w7zgnio4bw1b-wpengine.netdna-ssl.com/wp-content/uploads/2016/06/section-background-sky.jpg);
 }
 
 .paneles {
