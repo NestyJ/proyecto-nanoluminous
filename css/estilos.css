@@ -1,17 +1,21 @@
 .grid-index {
   min-height: 828px;
   grid-template-columns: 15% 20% 30% 20% 15%;
-  grid-template-rows: 20% 55% 5% 5% 5% 8%;
+  grid-template-rows: 55% 5% 5% 8% 8%;
   justify-items: center;
   align-items: center;
   display: grid;
   grid-template-areas:
-    ". l1 t l2 ."
     "p-i t1 i1 t2 p-d"
     "p1 p1 p1 p1 p1"
     "p2 p2 p2 p2 p2"
     ". . b . ."
     ". . tn . .";
+}
+
+.flex-encabezado-index{
+display: flex;
+justify-content: center;
 }
 
 .logo1 {
