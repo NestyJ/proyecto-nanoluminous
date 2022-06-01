@@ -1,3 +1,277 @@
+.triangulo-neon {
+  grid-area: tn;
+  border-radius: 40%;
+  object-fit: cover;
+  width: 50px;
+  height: 50px;
+  -webkit-animation: efecto 2s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
+  animation: efecto 2s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
+  animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes efecto {
+  0% {
+    -webkit-transform: rotateY(0);
+    transform: rotateY(0);
+  }
+  100% {
+    -webkit-transform: rotateY(360deg);
+    transform: rotateY(360deg);
+  }
+}
+
+@keyframes efecto {
+  0% {
+    -webkit-transform: rotateY(0);
+    transform: rotateY(0);
+  }
+  100% {
+    -webkit-transform: rotateY(360deg);
+    transform: rotateY(360deg);
+  }
+}
+
+.logo-gif1 {
+  grid-area: gifn;
+  justify-self: left;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  -webkit-animation: efecto 2s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
+  animation: efecto 2s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
+  animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes efecto {
+  0% {
+    -webkit-transform: rotateY(0);
+    transform: rotateY(0);
+  }
+  100% {
+    -webkit-transform: rotateY(360deg);
+    transform: rotateY(360deg);
+  }
+}
+
+@keyframes efecto {
+  0% {
+    -webkit-transform: rotateY(0);
+    transform: rotateY(0);
+  }
+  100% {
+    -webkit-transform: rotateY(360deg);
+    transform: rotateY(360deg);
+  }
+}
+
+.logo-gif {
+  grid-area: gif;
+  justify-self: left;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  -webkit-animation: efecto 2s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
+  animation: efecto 2s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
+  animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes efecto {
+  0% {
+    -webkit-transform: rotateY(0);
+    transform: rotateY(0);
+  }
+  100% {
+    -webkit-transform: rotateY(360deg);
+    transform: rotateY(360deg);
+  }
+}
+
+@keyframes efecto {
+  0% {
+    -webkit-transform: rotateY(0);
+    transform: rotateY(0);
+  }
+  100% {
+    -webkit-transform: rotateY(360deg);
+    transform: rotateY(360deg);
+  }
+}
+
+.logo-gif {
+  grid-area: gif;
+  justify-self: left;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  -webkit-animation: efecto 2s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
+  animation: efecto 2s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
+  animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes efecto {
+  0% {
+    -webkit-transform: rotateY(0);
+    transform: rotateY(0);
+  }
+  100% {
+    -webkit-transform: rotateY(360deg);
+    transform: rotateY(360deg);
+  }
+}
+
+@keyframes efecto {
+  0% {
+    -webkit-transform: rotateY(0);
+    transform: rotateY(0);
+  }
+  100% {
+    -webkit-transform: rotateY(360deg);
+    transform: rotateY(360deg);
+  }
+}
+
+.base1 {
+  grid-area: base;
+  justify-self: center;
+  align-self: start;
+  background-color: white;
+  padding: 40px;
+}
+
+.base {
+  grid-area: ba;
+  background-color: white;
+  padding: 40px;
+}
+
+body {
+  background-image: radial-gradient(circle farthest-corner at 32.7% 82.7%, #ad00ab 8.3%, #0f335c 79.4%);
+}
+
+.boton1 {
+  grid-area: b;
+  font-size: 20px;
+  font-style: italic;
+  color: white;
+  border-style: solid;
+  border-color: black;
+  font-weight: bold;
+  background-color: purple;
+}
+
+.boton:hover {
+  background-color: blue;
+  transition: background-color 4s linear 0s;
+}
+
+.buscador1 {
+  grid-area: search;
+  align-self: flex-end;
+  font-size: 20px;
+  width: 800px;
+  font-style: italic;
+  border-style: solid;
+  font-weight: bold;
+}
+
+.boton2 {
+  grid-area: b1;
+  border-style: solid;
+  border-color: black;
+  font-size: 100%;
+  justify-self: right;
+  align-self: start;
+  font-weight: bold;
+}
+
+.boton3 {
+  grid-area: b2;
+  border-style: solid;
+  border-color: black;
+  font-size: 100%;
+  justify-self: right;
+  align-self: start;
+  font-weight: bold;
+}
+
+.boton4 {
+  grid-area: b3;
+  border-style: solid;
+  border-color: black;
+  font-size: 100%;
+  justify-self: right;
+  align-self: start;
+  font-weight: bold;
+}
+
+.boton5 {
+  grid-area: b4;
+  border-style: solid;
+  border-color: black;
+  font-size: 100%;
+  justify-self: right;
+  align-self: start;
+  font-weight: bold;
+}
+
+.buscador2 {
+  grid-area: bu;
+  text-align: left;
+  width: 800px;
+  font-style: italic;
+  font-size: 20px;
+}
+
+.selector1 {
+  grid-area: sel1;
+  text-align: center;
+  transform: scale(1.5);
+  font-style: italic;
+  border-style: inset;
+}
+
+.selector2 {
+  grid-area: sel2;
+  text-align: center;
+  transform: scale(1.5);
+  font-style: italic;
+  border-style: inset;
+}
+
+.selector3 {
+  grid-area: sel3;
+  text-align: center;
+  transform: scale(1.5);
+  font-style: italic;
+  border-style: inset;
+}
+
+.selector4 {
+  grid-area: sel4;
+  text-align: center;
+  transform: scale(1.5);
+  font-style: italic;
+  border-style: inset;
+}
+
+.boton {
+  grid-area: bo;
+}
+
+.a1 {
+  justify-self: left;
+  align-self: start;
+  grid-area: a1;
+  color: #eeff00;
+}
+
+.a2 {
+  justify-self: left;
+  align-self: start;
+  grid-area: a2;
+  color: #eeff00;
+}
+
 .grid-index {
   min-height: 800px;
   grid-template-columns: 15% 20% 30% 20% 15%;
@@ -5,18 +279,68 @@
   justify-items: center;
   align-items: end;
   display: grid;
-  grid-template-areas:
-    "p-i t1 i1 t2 p-d"
-    "p1 p1 p1 p1 p1"
-    "p2 p2 p2 p2 p2"
-    ". . b . ."
-    ". . tn . .";
+  grid-template-areas: "p-i t1 i1 t2 p-d" "p1 p1 p1 p1 p1" "p2 p2 p2 p2 p2" ". . b . ." ". . tn . .";
 }
 
 .flex-encabezado-index {
   display: flex;
   justify-content: center;
   margin-bottom: 40px;
+}
+
+.grid-tienda {
+  min-height: 828px;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 30% 5%;
+  justify-items: center;
+  align-items: center;
+  display: grid;
+  grid-template-areas: "gifn . ti . ." ". search search search ." "b1 b2 b3 b4 ." "i2 i1 i5 i3 i4" "bc1 bc2 bc3 bc4 bc5";
+}
+
+.grid-ayuda {
+  min-height: 828px;
+  grid-template-columns: 10% 20% 20% 20% 20% 10%;
+  grid-template-rows: 20% 20% 20% 5% 10%;
+  justify-items: center;
+  align-items: center;
+  display: grid;
+  grid-template-areas: "gif tit tit tit tit ." ". s s s s ." ". bu bu bu bu ." ". text1 text2 text3 text4 ." ". sel1 sel2 sel3 sel4 .";
+}
+
+.grid-contacto {
+  min-height: 828px;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 10% 10% 20% 20% 20%;
+  justify-items: center;
+  align-items: center;
+  display: grid;
+  grid-template-areas: "gif titu titu titu ." ". subt . . ." ". p p p ." ". base base base ." ". base base base ." ". base base base .";
+}
+
+.grid-iniciar-sesion {
+  min-height: 828px;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 25% 7% 7% 7% 7% 7% 7%;
+  justify-items: center;
+  align-items: end;
+  display: grid;
+  grid-template-areas: ". la1 titulo la2 ." "ba ba ba ba ba" "ba ba ba ba ba" "ba ba ba ba ba" "ba ba ba ba ba" "ba ba ba ba ba" ". . a1 a2 .";
+}
+
+.grid-footer {
+  width: 100%;
+  min-height: 50px;
+  justify-content: center;
+  align-items: center;
+  background-color: grey;
+  column-gap: 25px;
+  display: flex;
+}
+
+.lista {
+  grid-area: lista;
+  list-style-type: none;
 }
 
 .logo1 {
@@ -27,61 +351,12 @@
   height: 120px;
 }
 
-.titulo1 {
-  grid-area: t;
-  font-size: 80px;
-  font-style: italic;
-  color: rgb(255, 0, 242);
-  background-color: white;
-  border-style: solid;
-}
-
 .logo2 {
   justify-self: left;
   grid-area: l2;
   border-radius: 50%;
   width: 120px;
   height: 120px;
-}
-
-.carousel-item {
-  height: 600px;
-  position: relative;
-  bottom: -10px;
-  left: 400px;
-}
-
-.carousel-caption {
-  position: absolute;
-  right: 1050px;
-}
-
-.habitacion1 {
-  position: absolute;
-  background-position: center;
-  background-size: cover;
-}
-
-.habitacion2 {
-  position: absolute;
-  bottom: -520px;
-  background-position: center;
-  background-size: cover;
-}
-
-.habitacion3 {
-  position: absolute;
-  bottom: -400px;
-  background-position: center;
-  background-size: cover;
-}
-
-.mensaje {
-  text-align: center;
-  font-size: 80px;
-  font-family: "Great Vibes", cursive;
-  color: rgb(220, 226, 132);
-  background-image: url(https://spzeb3r4asz2w7zgnio4bw1b-wpengine.netdna-ssl.com/wp-content/uploads/2016/06/section-background-sky.jpg);
 }
 
 .paneles {
@@ -134,183 +409,6 @@
   box-shadow: 0px 0px 50px 30px #ffffff;
 }
 
-.triangulo-neon {
-  grid-area: tn;
-  border-radius: 40%;
-  object-fit: cover;
-  width: 50px;
-  height: 50px;
-  -webkit-animation: efecto 2s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
-  animation: efecto 2s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
-  animation-iteration-count: infinite;
-}
-
-@-webkit-keyframes efecto {
-  0% {
-    -webkit-transform: rotateY(0);
-    transform: rotateY(0);
-  }
-  100% {
-    -webkit-transform: rotateY(360deg);
-    transform: rotateY(360deg);
-  }
-}
-@keyframes efecto {
-  0% {
-    -webkit-transform: rotateY(0);
-    transform: rotateY(0);
-  }
-  100% {
-    -webkit-transform: rotateY(360deg);
-    transform: rotateY(360deg);
-  }
-}
-
-.parrafo1 {
-  text-align: center;
-  grid-area: p1;
-  background-color: rgb(255, 0, 242);
-  opacity: 70%;
-  font-style: italic;
-  color: white;
-}
-
-.parrafo2 {
-  text-align: center;
-  grid-area: p2;
-  background-color: rgb(0, 217, 255);
-  opacity: 70%;
-  font-style: italic;
-  color: white;
-}
-
-.boton1 {
-  grid-area: b;
-  font-size: 20px;
-  font-style: italic;
-  color: white;
-  border-style: solid;
-  border-color: black;
-  font-weight: bold;
-  background-color: purple;
-}
-
-.boton:hover {
-  background-color: blue;
-  transition: background-color 4s linear 0s;
-}
-
-.grid-tienda {
-  min-height: 828px;
-  grid-template-columns: 20% 20% 20% 20% 20%;
-  grid-template-rows: 20% 20% 20% 30% 5%;
-  justify-items: center;
-  align-items: center;
-  display: grid;
-  grid-template-areas:
-    "gifn . ti . ."
-    ". search search search ."
-    "b1 b2 b3 b4 ."
-    "i1 i2 i3 i4 i5"
-    "bc1 bc2 bc3 bc4 bc5";
-}
-
-.logo-gif1 {
-  grid-area: gifn;
-  justify-self: left;
-  border-radius: 50%;
-  width: 100px;
-  height: 100px;
-  -webkit-animation: efecto 2s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
-  animation: efecto 2s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
-  animation-iteration-count: infinite;
-}
-
-@-webkit-keyframes efecto {
-  0% {
-    -webkit-transform: rotateY(0);
-    transform: rotateY(0);
-  }
-  100% {
-    -webkit-transform: rotateY(360deg);
-    transform: rotateY(360deg);
-  }
-}
-@keyframes efecto {
-  0% {
-    -webkit-transform: rotateY(0);
-    transform: rotateY(0);
-  }
-  100% {
-    -webkit-transform: rotateY(360deg);
-    transform: rotateY(360deg);
-  }
-}
-
-.titulo2 {
-  grid-area: ti;
-  font-size: 80px;
-  font-style: italic;
-  color: rgb(255, 0, 242);
-  background-color: white;
-  border-style: solid;
-}
-
-.buscador1 {
-  grid-area: search;
-  align-self: flex-end;
-  font-size: 20px;
-  width: 800px;
-  font-style: italic;
-  border-style: solid;
-  font-weight: bold;
-}
-
-.lista {
-  grid-area: lista;
-  list-style-type: none;
-}
-
-.boton2 {
-  grid-area: b1;
-  border-style: solid;
-  border-color: black;
-  font-size: 100%;
-  justify-self: right;
-  align-self: start;
-  font-weight: bold;
-}
-
-.boton3 {
-  grid-area: b2;
-  border-style: solid;
-  border-color: black;
-  font-size: 100%;
-  justify-self: right;
-  align-self: start;
-  font-weight: bold;
-}
-
-.boton4 {
-  grid-area: b3;
-  border-style: solid;
-  border-color: black;
-  font-size: 100%;
-  justify-self: right;
-  align-self: start;
-  font-weight: bold;
-}
-
-.boton5 {
-  grid-area: b4;
-  border-style: solid;
-  border-color: black;
-  font-size: 100%;
-  justify-self: right;
-  align-self: start;
-  font-weight: bold;
-}
-
 .imagen1 {
   grid-area: i1;
 }
@@ -331,252 +429,6 @@
   grid-area: i5;
 }
 
-.grid-ayuda {
-  min-height: 828px;
-  grid-template-columns: 10% 20% 20% 20% 20% 10%;
-  grid-template-rows: 20% 20% 20% 5% 10%;
-  justify-items: center;
-  align-items: center;
-  display: grid;
-  grid-template-areas:
-    "gif tit tit tit tit ."
-    ". s s s s ."
-    ". bu bu bu bu ."
-    ". text1 text2 text3 text4 ."
-    ". sel1 sel2 sel3 sel4 .";
-}
-
-.logo-gif {
-  grid-area: gif;
-  justify-self: left;
-  border-radius: 50%;
-  width: 100px;
-  height: 100px;
-  -webkit-animation: efecto 2s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
-  animation: efecto 2s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
-  animation-iteration-count: infinite;
-}
-
-@-webkit-keyframes efecto {
-  0% {
-    -webkit-transform: rotateY(0);
-    transform: rotateY(0);
-  }
-  100% {
-    -webkit-transform: rotateY(360deg);
-    transform: rotateY(360deg);
-  }
-}
-@keyframes efecto {
-  0% {
-    -webkit-transform: rotateY(0);
-    transform: rotateY(0);
-  }
-  100% {
-    -webkit-transform: rotateY(360deg);
-    transform: rotateY(360deg);
-  }
-}
-
-.titulo3 {
-  grid-area: tit;
-  text-align: center;
-  font-size: 400%;
-  font-style: italic;
-  color: rgb(255, 0, 242);
-  border-style: solid;
-  background-color: white;
-}
-
-.subtitulo1 {
-  grid-area: s;
-  text-align: center;
-  font-size: 400%;
-  font-style: italic;
-  color: rgb(255, 0, 242);
-  border-style: solid;
-  background-color: white;
-}
-
-.buscador2 {
-  grid-area: bu;
-  text-align: left;
-  width: 800px;
-  font-style: italic;
-  font-size: 20px;
-}
-
-.text1 {
-  grid-area: text1;
-  text-align: center;
-  font-size: 30px;
-  font-style: italic;
-  color: rgb(255, 0, 242);
-  border-style: solid;
-  background-color: white;
-}
-
-.text2 {
-  grid-area: text2;
-  text-align: center;
-  font-size: 30px;
-  font-style: italic;
-  color: rgb(255, 0, 242);
-  border-style: solid;
-  background-color: white;
-}
-
-.text3 {
-  grid-area: text3;
-  text-align: center;
-  font-size: 30px;
-  font-style: italic;
-  color: rgb(255, 0, 242);
-  border-style: solid;
-  background-color: white;
-}
-
-.text4 {
-  grid-area: text4;
-  text-align: center;
-  font-size: 30px;
-  font-style: italic;
-  color: rgb(255, 0, 242);
-  border-style: solid;
-  background-color: white;
-}
-
-.selector1 {
-  grid-area: sel1;
-  text-align: center;
-  transform: scale(1.5);
-  font-style: italic;
-  border-style: inset;
-}
-
-.selector2 {
-  grid-area: sel2;
-  text-align: center;
-  transform: scale(1.5);
-  font-style: italic;
-  border-style: inset;
-}
-
-.selector3 {
-  grid-area: sel3;
-  text-align: center;
-  transform: scale(1.5);
-  font-style: italic;
-  border-style: inset;
-}
-
-.selector4 {
-  grid-area: sel4;
-  text-align: center;
-  transform: scale(1.5);
-  font-style: italic;
-  border-style: inset;
-}
-
-.grid-contacto {
-  min-height: 828px;
-  grid-template-columns: 20% 20% 20% 20% 20%;
-  grid-template-rows: 20% 10% 10% 20% 20% 20%;
-  justify-items: center;
-  align-items: center;
-  display: grid;
-  grid-template-areas:
-    "gif titu titu titu ."
-    ". subt . . ."
-    ". p p p ."
-    ". base base base ."
-    ". base base base ."
-    ". base base base .";
-}
-
-.titulo4 {
-  grid-area: titu;
-  font-size: 400%;
-  font-style: italic;
-  color: rgb(255, 0, 242);
-  border-style: solid;
-  background-color: white;
-}
-
-.subtitulo2 {
-  grid-area: subt;
-  justify-self: left;
-  color: white;
-  font-size: 300%;
-}
-
-.parrafo {
-  grid-area: p;
-  font-size: 150%;
-  color: white;
-  font-style: italic;
-}
-
-.base1 {
-  grid-area: base;
-  justify-self: center;
-  align-self: start;
-  background-color: white;
-  padding: 40px;
-}
-
-.logo-gif {
-  grid-area: gif;
-  justify-self: left;
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  -webkit-animation: efecto 2s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
-  animation: efecto 2s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
-  animation-iteration-count: infinite;
-}
-
-@-webkit-keyframes efecto {
-  0% {
-    -webkit-transform: rotateY(0);
-    transform: rotateY(0);
-  }
-  100% {
-    -webkit-transform: rotateY(360deg);
-    transform: rotateY(360deg);
-  }
-}
-@keyframes efecto {
-  0% {
-    -webkit-transform: rotateY(0);
-    transform: rotateY(0);
-  }
-  100% {
-    -webkit-transform: rotateY(360deg);
-    transform: rotateY(360deg);
-  }
-}
-
-.boton {
-  grid-area: bo;
-}
-
-.grid-iniciar-sesion {
-  min-height: 828px;
-  grid-template-columns: 20% 20% 20% 20% 20%;
-  grid-template-rows: 25% 7% 7% 7% 7% 7% 7%;
-  justify-items: center;
-  align-items: end;
-  display: grid;
-  grid-template-areas:
-    ". la1 titulo la2 ."
-    "ba ba ba ba ba"
-    "ba ba ba ba ba"
-    "ba ba ba ba ba"
-    "ba ba ba ba ba"
-    "ba ba ba ba ba"
-    ". . a1 a2 .";
-}
 .logo-1 {
   justify-self: right;
   align-self: start;
@@ -584,17 +436,6 @@
   width: 120px;
   height: 120px;
   border-radius: 50%;
-}
-
-.titulo5 {
-  justify-self: center;
-  align-self: start;
-  grid-area: titulo;
-  font-size: 50px;
-  font-style: italic;
-  color: rgb(255, 0, 242);
-  background-color: white;
-  border-style: solid;
 }
 
 .logo-2 {
@@ -606,51 +447,173 @@
   border-radius: 50%;
 }
 
-.base {
-  grid-area: ba;
+.carousel-item {
+  height: 600px;
+  position: relative;
+  bottom: -10px;
+  left: 400px;
+}
+
+.carousel-caption {
+  position: absolute;
+  right: 1050px;
+}
+
+.habitacion1 {
+  position: absolute;
+  background-position: center;
+  background-size: cover;
+}
+
+.habitacion2 {
+  position: absolute;
+  bottom: -520px;
+  background-position: center;
+  background-size: cover;
+}
+
+.habitacion3 {
+  position: absolute;
+  bottom: -400px;
+  background-position: center;
+  background-size: cover;
+}
+
+.parrafo1 {
+  text-align: center;
+  grid-area: p1;
+  background-color: #ff00f2;
+  opacity: 70%;
+  font-style: italic;
+  color: white;
+}
+
+.parrafo2 {
+  text-align: center;
+  grid-area: p2;
+  background-color: #00d9ff;
+  opacity: 70%;
+  font-style: italic;
+  color: white;
+}
+
+.text1 {
+  grid-area: text1;
+  text-align: center;
+  font-size: 30px;
+  font-style: italic;
+  color: #ff00f2;
+  border-style: solid;
   background-color: white;
-  padding: 40px;
 }
 
-.a1 {
+.text2 {
+  grid-area: text2;
+  text-align: center;
+  font-size: 30px;
+  font-style: italic;
+  color: #ff00f2;
+  border-style: solid;
+  background-color: white;
+}
+
+.text3 {
+  grid-area: text3;
+  text-align: center;
+  font-size: 30px;
+  font-style: italic;
+  color: #ff00f2;
+  border-style: solid;
+  background-color: white;
+}
+
+.text4 {
+  grid-area: text4;
+  text-align: center;
+  font-size: 30px;
+  font-style: italic;
+  color: #ff00f2;
+  border-style: solid;
+  background-color: white;
+}
+
+.parrafo {
+  grid-area: p;
+  font-size: 150%;
+  color: white;
+  font-style: italic;
+}
+
+.mensaje {
+  text-align: center;
+  font-size: 80px;
+  font-family: "Great Vibes", cursive;
+  color: #dce284;
+  background-image: url(https://spzeb3r4asz2w7zgnio4bw1b-wpengine.netdna-ssl.com/wp-content/uploads/2016/06/section-background-sky.jpg);
+}
+
+.titulo1 {
+  grid-area: t;
+  font-size: 80px;
+  font-style: italic;
+  color: #ff00f2;
+  background-color: white;
+  border-style: solid;
+}
+
+.titulo2 {
+  grid-area: ti;
+  font-size: 80px;
+  font-style: italic;
+  color: #ff00f2;
+  background-color: white;
+  border-style: solid;
+}
+
+.titulo3 {
+  grid-area: tit;
+  text-align: center;
+  font-size: 400%;
+  font-style: italic;
+  color: #ff00f2;
+  border-style: solid;
+  background-color: white;
+}
+
+.subtitulo1 {
+  grid-area: s;
+  text-align: center;
+  font-size: 400%;
+  font-style: italic;
+  color: #ff00f2;
+  border-style: solid;
+  background-color: white;
+}
+
+.titulo4 {
+  grid-area: titu;
+  font-size: 400%;
+  font-style: italic;
+  color: #ff00f2;
+  border-style: solid;
+  background-color: white;
+}
+
+.subtitulo2 {
+  grid-area: subt;
   justify-self: left;
+  color: white;
+  font-size: 300%;
+}
+
+.titulo5 {
+  justify-self: center;
   align-self: start;
-  grid-area: a1;
-  color: rgb(238, 255, 0);
+  grid-area: titulo;
+  font-size: 50px;
+  font-style: italic;
+  color: #ff00f2;
+  background-color: white;
+  border-style: solid;
 }
-
-.a2 {
-  justify-self: left;
-  align-self: start;
-  grid-area: a2;
-  color: rgb(238, 255, 0);
-}
-
-.grid-footer {
-  width: 100%;
-  min-height: 50px;
-  justify-content: center;
-  align-items: center;
-  background-color: grey;
-  column-gap: 25px;
-  display: flex;
-}
-
-body {
-  background-image: radial-gradient(
-    circle farthest-corner at 32.7% 82.7%,
-    rgba(173, 0, 171, 1) 8.3%,
-    rgba(15, 51, 92, 1) 79.4%
-  );
-}
-
-@media screen and (max-width: 1023px) {
-  .body {
-    background-color: rgb(255, 0, 242);
-  }
-}
-@media screen and (max-width: 600px) {
-  .body {
-    background-color: rgb(255, 0, 242);
-  }
-}
+/*# sourceMappingURL=estilos.css.map */
