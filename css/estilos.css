@@ -13,10 +13,10 @@
     ". . tn . .";
 }
 
-.flex-encabezado-index{
-display: flex;
-justify-content: center;
-margin-bottom: 40px;
+.flex-encabezado-index {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
 }
 
 .logo1 {
@@ -44,44 +44,44 @@ margin-bottom: 40px;
   height: 120px;
 }
 
-.carousel-item{
-height: 600px;
-position: relative;
-bottom: -10px;
-left: 400px;
+.carousel-item {
+  height: 600px;
+  position: relative;
+  bottom: -10px;
+  left: 400px;
 }
 
-.carousel-caption{
-position: absolute;
-right: 1050px;
+.carousel-caption {
+  position: absolute;
+  right: 1050px;
 }
 
-.habitacion1{
-position: absolute;
-background-position: center;
-background-size: cover;
+.habitacion1 {
+  position: absolute;
+  background-position: center;
+  background-size: cover;
 }
 
-.habitacion2{
-position: absolute;
-bottom: -520px;
-background-position: center;
-background-size: cover;
+.habitacion2 {
+  position: absolute;
+  bottom: -520px;
+  background-position: center;
+  background-size: cover;
 }
 
-.habitacion3{
-position: absolute;
-bottom: -400px;
-background-position: center;
-background-size: cover;
+.habitacion3 {
+  position: absolute;
+  bottom: -400px;
+  background-position: center;
+  background-size: cover;
 }
 
-.mensaje{
-text-align: center;
-font-size: 80px;
-font-family: 'Great Vibes', cursive;
-color: rgb(220, 226, 132);
-background-image:url(https://spzeb3r4asz2w7zgnio4bw1b-wpengine.netdna-ssl.com/wp-content/uploads/2016/06/section-background-sky.jpg);
+.mensaje {
+  text-align: center;
+  font-size: 80px;
+  font-family: "Great Vibes", cursive;
+  color: rgb(220, 226, 132);
+  background-image: url(https://spzeb3r4asz2w7zgnio4bw1b-wpengine.netdna-ssl.com/wp-content/uploads/2016/06/section-background-sky.jpg);
 }
 
 .paneles {

@@ -100,3 +100,35 @@
   height: 120px;
   border-radius: 50%;
 }
+
+.carousel-item {
+  height: 600px;
+  position: relative;
+  bottom: -10px;
+  left: 400px;
+}
+
+.carousel-caption {
+  position: absolute;
+  right: 1050px;
+}
+
+.habitacion1 {
+  position: absolute;
+  background-position: center;
+  background-size: cover;
+}
+
+.habitacion2 {
+  position: absolute;
+  bottom: -520px;
+  background-position: center;
+  background-size: cover;
+}
+
+.habitacion3 {
+  position: absolute;
+  bottom: -400px;
+  background-position: center;
+  background-size: cover;
+}
