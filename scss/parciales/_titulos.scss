@@ -1,6 +1,8 @@
 .titulo1 {
+  justify-self: center;
+  align-self: center;
   grid-area: t;
-  font-size: 80px;
+  font-size: 85px;
   font-style: italic;
   color: rgb(255, 0, 242);
   background-color: white;
@@ -51,9 +53,9 @@
 
 .titulo5 {
   justify-self: center;
-  align-self: start;
+  align-self: center;
   grid-area: titulo;
-  font-size: 50px;
+  font-size: 85px;
   font-style: italic;
   color: rgb(255, 0, 242);
   background-color: white;

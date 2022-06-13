@@ -65,6 +65,12 @@
     ". base base base .";
 }
 
+.flex-encabezado-iniciar-sesion {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
 .grid-iniciar-sesion {
   min-height: 828px;
   grid-template-columns: 20% 20% 20% 20% 20%;
@@ -81,6 +87,7 @@
     "ba ba ba ba ba"
     ". . a1 a2 .";
 }
+
 
 .grid-footer {
   width: 100%;

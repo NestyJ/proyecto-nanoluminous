@@ -64,25 +64,30 @@
   box-shadow: 0px 0px 50px 30px #ffffff;
 }
 
-.imagen1 {
+.card{
+  width: 18rem;
+}
+
+.tarjeta1 {
   grid-area: i1;
 }
 
-.imagen2 {
+.tarjeta2 {
   grid-area: i2;
 }
 
-.imagen3 {
+.tarjeta3 {
   grid-area: i3;
 }
 
-.imagen4 {
+.tarjeta4 {
   grid-area: i4;
 }
 
-.imagen5 {
+.tarjeta5 {
   grid-area: i5;
 }
+
 
 .logo-1 {
   justify-self: right;

@@ -1,10 +1,430 @@
-@media screen and (max-width: 1023px) {
-  .body {
-    background-color: rgb(255, 0, 242);
+@media screen and (max-width: 1024px) {
+  .titulo1 {
+    font-size: 50px;
+  }
+
+  .carousel-item {
+    transform: translate(-400px);
+  }
+
+  .carousel-caption {
+    font-size: 25px;
+    position: absolute;
+    right: 150px;
+  }
+
+  .mensaje {
+    font-size: 50px;
+    width: 1024px;
+  }
+
+  .grid-index {
+    max-height: 700px;
+    grid-template-rows: 40% 15% 15% 8% 10%;
+    grid-template-columns: 15% 21% 28% 21% 15%;
+  }
+  .paneles {
+    width: 250px;
+    height: 250px;
+  }
+
+  .triangulo1 {
+    width: 200px;
+    height: 200px;
+  }
+
+  .triangulo2 {
+    width: 200px;
+    height: 200px;
+  }
+
+  .panel-izquierdo {
+    width: 150px;
+    height: 150px;
+  }
+
+  .panel-derecho {
+    width: 150px;
+    height: 150px;
+  }
+
+  .grid-tienda {
+    min-height: 828px;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 15% 15% 40%;
+    justify-items: center;
+    align-items: center;
+    display: grid;
+    grid-template-areas:
+      "gifn . ti . ."
+      ". search search search ."
+      "b1 b2 b3 b4 ."
+      "i2 i1 i5 i3 i4"
+      "bc1 bc2 bc3 bc4 bc5";
+  }
+
+  .titulo2 {
+    font-size: 60px;
+  }
+
+  .card {
+    height: 320px;
+    width: 200px;
+  }
+
+  .imagen1 {
+    width: 198px;
+    height: 210px;
+    padding: 10px;
+  }
+
+  .imagen2 {
+    width: 198px;
+    height: 210px;
+    padding: 10px;
+  }
+  .imagen3 {
+    width: 198px;
+    height: 210px;
+    padding: 10px;
+  }
+  .imagen4 {
+    width: 198px;
+    height: 210px;
+    padding: 10px;
+  }
+
+  .imagen5 {
+    width: 198px;
+    height: 210px;
+    padding: 10px;
+  }
+
+  .grid-contacto {
+    min-height: 828px;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 15% 5% 15% 20% 20% 20%;
+    justify-items: center;
+    align-items: center;
+    display: grid;
+    grid-template-areas:
+      "gif titu titu titu ."
+      ". subt . . ."
+      ". p p p ."
+      ". base base base ."
+      ". base base base ."
+      ". base base base .";
+  }
+
+  .titulo3 {
+    font-size: 60px;
+  }
+
+  .subtitulo2 {
+    font-size: 40px;
+  }
+
+  .parrafo {
+    font-size: 20px;
+  }
+
+  .grid-ayuda {
+    min-height: 828px;
+    grid-template-columns: 10% 20% 20% 20% 20% 10%;
+    grid-template-rows: 20% 20% 20% 5% 5%;
+    justify-items: center;
+    align-items: center;
+    display: grid;
+    grid-template-areas:
+      "gif tit tit tit tit ."
+      ". s s s s ."
+      ". bu bu bu bu ."
+      ". text1 text2 text3 text4 ."
+      ". sel1 sel2 sel3 sel4 .";
+  }
+
+  .titulo4 {
+    font-size: 60px;
+  }
+
+  .subtitulo1 {
+    font-size: 50px;
+  }
+
+  .buscador2 {
+    align-self: flex-start;
+  }
+
+  .text1 {
+    font-size: 20px;
+  }
+
+  .text2 {
+    font-size: 20px;
+  }
+
+  .text3 {
+    font-size: 20px;
+  }
+
+  .text4 {
+    font-size: 20px;
+  }
+
+  .selector1 {
+    font-size: 12px;
+  }
+
+  .selector2 {
+    font-size: 12px;
+  }
+  .selector3 {
+    font-size: 12px;
+  }
+
+  .selector4 {
+    font-size: 12px;
+  }
+
+  .grid-iniciar-sesion {
+    min-height: 828px;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 25% 15% 10% 5% 5% 5% 5%;
+    justify-items: center;
+    align-items: end;
+    display: grid;
+    grid-template-areas:
+      ". la1 titulo la2 ."
+      "ba ba ba ba ba"
+      "ba ba ba ba ba"
+      "ba ba ba ba ba"
+      "ba ba ba ba ba"
+      "ba ba ba ba ba"
+      ". . a1 a2 .";
+  }
+
+  .titulo5 {
+    font-size: 50px;
   }
 }
+
 @media screen and (max-width: 600px) {
-  .body {
-    background-color: rgb(255, 0, 242);
+
+  .logo1 {
+    width: 60px;
+    height: 60px;
+  }
+
+  .logo2 {
+    width: 60px;
+    height: 60px;
+  }
+
+  .titulo1 {
+    font-size: 20px;
+  }
+
+  .carousel-item {
+    transform: translate(-400px);
+  }
+
+  .carousel-caption {
+    font-size: 25px;
+    position: absolute;
+    right: 150px;
+  }
+
+  .mensaje {
+    font-size: 50px;
+    width: 395px;
+  }
+
+  .grid-index {
+    max-height: 700px;
+    grid-template-rows: 40% 15% 15% 8% 10%;
+    grid-template-columns: 15% 21% 28% 21% 15%;
+  }
+  .paneles {
+    width: 250px;
+    height: 250px;
+  }
+
+  .triangulo1 {
+    width: 200px;
+    height: 200px;
+  }
+
+  .triangulo2 {
+    width: 200px;
+    height: 200px;
+  }
+
+  .panel-izquierdo {
+    width: 150px;
+    height: 150px;
+  }
+
+  .panel-derecho {
+    width: 150px;
+    height: 150px;
+  }
+
+  .grid-tienda {
+    min-height: 828px;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 15% 15% 40%;
+    justify-items: center;
+    align-items: center;
+    display: grid;
+    grid-template-areas:
+      "gifn . ti . ."
+      ". search search search ."
+      "b1 b2 b3 b4 ."
+      "i2 i1 i5 i3 i4"
+      "bc1 bc2 bc3 bc4 bc5";
+  }
+
+  .titulo2 {
+    font-size: 60px;
+  }
+
+  .card {
+    height: 320px;
+    width: 200px;
+  }
+
+  .imagen1 {
+    width: 198px;
+    height: 210px;
+    padding: 10px;
+  }
+
+  .imagen2 {
+    width: 198px;
+    height: 210px;
+    padding: 10px;
+  }
+  .imagen3 {
+    width: 198px;
+    height: 210px;
+    padding: 10px;
+  }
+  .imagen4 {
+    width: 198px;
+    height: 210px;
+    padding: 10px;
+  }
+
+  .imagen5 {
+    width: 198px;
+    height: 210px;
+    padding: 10px;
+  }
+
+  .grid-contacto {
+    min-height: 828px;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 15% 5% 15% 20% 20% 20%;
+    justify-items: center;
+    align-items: center;
+    display: grid;
+    grid-template-areas:
+      "gif titu titu titu ."
+      ". subt . . ."
+      ". p p p ."
+      ". base base base ."
+      ". base base base ."
+      ". base base base .";
+  }
+
+  .titulo3 {
+    font-size: 60px;
+  }
+
+  .subtitulo2 {
+    font-size: 40px;
+  }
+
+  .parrafo {
+    font-size: 20px;
+  }
+
+  .grid-ayuda {
+    min-height: 828px;
+    grid-template-columns: 10% 20% 20% 20% 20% 10%;
+    grid-template-rows: 20% 20% 20% 5% 5%;
+    justify-items: center;
+    align-items: center;
+    display: grid;
+    grid-template-areas:
+      "gif tit tit tit tit ."
+      ". s s s s ."
+      ". bu bu bu bu ."
+      ". text1 text2 text3 text4 ."
+      ". sel1 sel2 sel3 sel4 .";
+  }
+
+  .titulo4 {
+    font-size: 60px;
+  }
+
+  .subtitulo1 {
+    font-size: 50px;
+  }
+
+  .buscador2 {
+    align-self: flex-start;
+  }
+
+  .text1 {
+    font-size: 20px;
+  }
+
+  .text2 {
+    font-size: 20px;
+  }
+
+  .text3 {
+    font-size: 20px;
+  }
+
+  .text4 {
+    font-size: 20px;
+  }
+
+  .selector1 {
+    font-size: 12px;
+  }
+
+  .selector2 {
+    font-size: 12px;
+  }
+  .selector3 {
+    font-size: 12px;
+  }
+
+  .selector4 {
+    font-size: 12px;
+  }
+
+  .grid-iniciar-sesion {
+    min-height: 828px;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 25% 15% 10% 5% 5% 5% 5%;
+    justify-items: center;
+    align-items: end;
+    display: grid;
+    grid-template-areas:
+      ". la1 titulo la2 ."
+      "ba ba ba ba ba"
+      "ba ba ba ba ba"
+      "ba ba ba ba ba"
+      "ba ba ba ba ba"
+      "ba ba ba ba ba"
+      ". . a1 a2 .";
+  }
+
+  .titulo5 {
+    font-size: 50px;
   }
 }
