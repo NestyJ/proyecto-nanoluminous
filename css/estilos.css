@@ -117,8 +117,8 @@ body {
 .buscador1 {
   grid-area: search;
   align-self: flex-end;
-  font-size: 20px;
-  width: 800px;
+  font-size: 25px;
+  width: 1400px;
   font-style: italic;
   border-style: solid;
   font-weight: bold;
@@ -502,6 +502,7 @@ body {
   border-style: solid;
 }
 
+/*Version Tablet*/
 @media screen and (max-width: 1024px) {
   .titulo1 {
     font-size: 50px;
@@ -516,44 +517,64 @@ body {
   }
   .mensaje {
     font-size: 50px;
-    width: 1024px;
   }
   .grid-index {
     max-height: 700px;
-    grid-template-rows: 40% 15% 15% 8% 10%;
+    grid-template-rows: 15% 20% 25% 10% 10% 8% 8%;
     grid-template-columns: 15% 21% 28% 21% 15%;
+    grid-template-areas: "p-i . . . p-d" ". t1 i1 t2 ." ". . i1 . ." "p1 p1 p1 p1 p1" "p2 p2 p2 p2 p2" ". . b . ." ". . tn . .";
   }
   .paneles {
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
   }
   .triangulo1 {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
   }
   .triangulo2 {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
   }
   .panel-izquierdo {
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
   }
   .panel-derecho {
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
   }
   .grid-tienda {
-    min-height: 828px;
-    grid-template-columns: 20% 20% 20% 20% 20%;
-    grid-template-rows: 20% 15% 15% 40%;
+    min-height: 1500px;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 10% 5% 4% 25% 25% 25%;
     justify-items: center;
     align-items: center;
     display: grid;
-    grid-template-areas: "gifn . ti . ." ". search search search ." "b1 b2 b3 b4 ." "i2 i1 i5 i3 i4" "bc1 bc2 bc3 bc4 bc5";
+    grid-template-areas: "gifn ti ti . " "search search search search " "b1 b2 b3 b4" "i1 i1 i5 i5" "i3 i3 i4 i4" "i2 i2 . .";
   }
   .titulo2 {
     font-size: 60px;
+  }
+  .buscador1 {
+    width: 650px;
+    justify-self: center;
+  }
+  .boton2 {
+    justify-self: center;
+    align-self: center;
+  }
+  .boton3 {
+    justify-self: center;
+    align-self: center;
+  }
+  .boton4 {
+    justify-self: center;
+    align-self: center;
+  }
+  .boton5 {
+    justify-self: center;
+    align-self: center;
   }
   .card {
     height: 320px;
@@ -585,9 +606,9 @@ body {
     padding: 10px;
   }
   .grid-contacto {
-    min-height: 828px;
+    min-height: 1000px;
     grid-template-columns: 20% 20% 20% 20% 20%;
-    grid-template-rows: 15% 5% 15% 20% 20% 20%;
+    grid-template-rows: 15% 5% 20% 20% 20% 20%;
     justify-items: center;
     align-items: center;
     display: grid;
@@ -603,22 +624,22 @@ body {
     font-size: 20px;
   }
   .grid-ayuda {
-    min-height: 828px;
-    grid-template-columns: 10% 20% 20% 20% 20% 10%;
-    grid-template-rows: 20% 20% 20% 5% 5%;
+    min-height: 1000px;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 15% 15% 15% 5% 5%;
     justify-items: center;
     align-items: center;
     display: grid;
-    grid-template-areas: "gif tit tit tit tit ." ". s s s s ." ". bu bu bu bu ." ". text1 text2 text3 text4 ." ". sel1 sel2 sel3 sel4 .";
+    grid-template-areas: "gif tit tit  ." ". s s ." "bu bu bu bu" "text1 text2 text3 text4" "sel1 sel2 sel3 sel4";
   }
   .titulo4 {
     font-size: 60px;
   }
   .subtitulo1 {
-    font-size: 50px;
+    font-size: 35px;
   }
   .buscador2 {
-    align-self: flex-start;
+    width: 650px;
   }
   .text1 {
     font-size: 20px;
@@ -645,16 +666,20 @@ body {
     font-size: 12px;
   }
   .grid-iniciar-sesion {
-    min-height: 828px;
-    grid-template-columns: 20% 20% 20% 20% 20%;
-    grid-template-rows: 25% 15% 10% 5% 5% 5% 5%;
+    min-height: 1000px;
+    grid-template-columns: 100%;
+    grid-template-rows: 100%;
     justify-items: center;
-    align-items: end;
+    align-items: center;
     display: grid;
-    grid-template-areas: ". la1 titulo la2 ." "ba ba ba ba ba" "ba ba ba ba ba" "ba ba ba ba ba" "ba ba ba ba ba" "ba ba ba ba ba" ". . a1 a2 .";
+    grid-template-areas: "ba";
   }
   .titulo5 {
     font-size: 50px;
+  }
+  .base {
+    font-size: 25px;
+    height: 450px;
   }
 }
 
@@ -675,8 +700,9 @@ body {
     display: none;
   }
   .mensaje {
-    font-size: 30px;
-    width: 350px;
+    margin: auto;
+    font-size: 20px;
+    width: 300px;
     padding: 20px;
     margin-bottom: 20px;
   }
@@ -684,7 +710,7 @@ body {
     max-height: 700px;
     grid-template-rows: 18% 18% 21% 18% 18% 6%;
     grid-template-columns: 50% 50%;
-    grid-template-areas: "p-i p1" "t1 p1" "i1 p2"  "t2 p2"  "p-d b" ". tn";
+    grid-template-areas: "p-i p1" "t1 p1" "i1 p2" "t2 p2" "p-d b" ". tn";
   }
   .parrafo1 {
     align-self: flex-start;
@@ -722,7 +748,7 @@ body {
     justify-items: center;
     align-items: flex-start;
     display: grid;
-    grid-template-areas: "ti ti " "search search" "b1 b2"  "b3 b4" "i2 i1"     "i5 i3" "i4 .";
+    grid-template-areas: "ti ti " "search search" "b1 b2" "b3 b4" "i2 i1" "i5 i3" "i4 .";
   }
   .card-title {
     font-size: 10px;
@@ -871,6 +897,9 @@ body {
     height: 400px;
     width: 300px;
     padding: 20px;
+  }
+  .grid-footer {
+    font-size: 12px;
   }
 }
 
