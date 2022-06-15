@@ -161,6 +161,10 @@
     font-size: 20px;
   }
 
+.base1{
+  width: 500px;
+}
+
   .grid-ayuda {
     min-height: 1000px;
     grid-template-columns: 25% 25% 25% 25%;
@@ -235,7 +239,8 @@
 
   .base {
     font-size: 25px;
-    height: 450px;
+    height: 500px;
+    width: 600px;
   }
 }
 
@@ -290,6 +295,7 @@
 
   .boton1 {
     align-self: flex-start;
+    font-size: 15px;
   }
 
   .paneles {
@@ -317,12 +323,13 @@
     height: 120px;
   }
 
+
   .grid-tienda {
     min-height: 1000px;
     grid-template-rows: 7% 7% 5% 5% 25% 25% 25%;
     grid-template-columns: 50% 50%;
     justify-items: center;
-    align-items: flex-start;
+    align-items: center;
     display: grid;
     grid-template-areas:
       "ti ti "
@@ -343,8 +350,16 @@
     justify-self: left;
   }
 
+  .boton3 {
+    justify-self: right;
+  }
+
   .boton4 {
     justify-self: left;
+  }
+
+  .boton5 {
+    justify-self: right;
   }
 
   .logo-gif1 {
@@ -357,6 +372,7 @@
   }
   .buscador1 {
     width: 300px;
+    font-size: 20px;
     align-self: center;
   }
   .card {
@@ -422,6 +438,11 @@
 
   .parrafo {
     font-size: 15px;
+  }
+
+  .base1{
+  height: 600px;
+  width: 300px;
   }
 
   .grid-ayuda {

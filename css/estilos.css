@@ -15,13 +15,13 @@
 }
 
 .grid-tienda {
-  min-height: 828px;
+  min-height: 1000px;
   grid-template-columns: 20% 20% 20% 20% 20%;
-  grid-template-rows: 20% 20% 20% 30% 5%;
+  grid-template-rows: 20% 15% 10% 40%;
   justify-items: center;
   align-items: center;
   display: grid;
-  grid-template-areas: "gifn . ti . ." ". search search search ." "b1 b2 b3 b4 ." "i2 i1 i5 i3 i4" "bc1 bc2 bc3 bc4 bc5";
+  grid-template-areas: "gifn . ti . ." ". search search search ." "b1 b2 b3 b4 ." "i2 i1 i5 i3 i4";
 }
 
 .grid-ayuda {
@@ -35,13 +35,13 @@
 }
 
 .grid-contacto {
-  min-height: 828px;
+  min-height: 1000px;
   grid-template-columns: 20% 20% 20% 20% 20%;
-  grid-template-rows: 20% 10% 10% 20% 20% 20%;
+  grid-template-rows: 20% 5% 15% 30% 30%;
   justify-items: center;
   align-items: center;
   display: grid;
-  grid-template-areas: "gif titu titu titu ." ". subt . . ." ". p p p ." ". base base base ." ". base base base ." ". base base base .";
+  grid-template-areas: "gif titu titu titu ." ". subt . . ." ". p p p ." ". base base base ." ". base base base .";
 }
 
 .flex-encabezado-iniciar-sesion {
@@ -51,13 +51,13 @@
 }
 
 .grid-iniciar-sesion {
-  min-height: 828px;
-  grid-template-columns: 20% 20% 20% 20% 20%;
-  grid-template-rows: 25% 7% 7% 7% 7% 7% 7%;
+  min-height: 1000px;
+  grid-template-columns: 100%;
+  grid-template-rows: 100%;
   justify-items: center;
-  align-items: end;
+  align-items: center;
   display: grid;
-  grid-template-areas: ". la1 titulo la2 ." "ba ba ba ba ba" "ba ba ba ba ba" "ba ba ba ba ba" "ba ba ba ba ba" "ba ba ba ba ba" ". . a1 a2 .";
+  grid-template-areas: "ba";
 }
 
 .grid-footer {
@@ -85,14 +85,16 @@ body {
   align-self: start;
   background-color: white;
   padding: 40px;
+  width: 800px;
 }
 
 .base {
   grid-area: ba;
   background-color: white;
-  padding: 40px;
-  height: 350px;
-  width: 700px;
+  padding: 60px;
+  font-size: 30px;
+  height: 500px;
+  width: 900px;
   -webkit-box-shadow: 0px 0px 50px 30px #ffffff;
   -moz-box-shadow: 0px 0px 50px 30px #ffffff;
   box-shadow: 0px 0px 50px 30px #fc0202;
@@ -116,7 +118,6 @@ body {
 
 .buscador1 {
   grid-area: search;
-  align-self: flex-end;
   font-size: 25px;
   width: 1400px;
   font-style: italic;
@@ -623,6 +624,9 @@ body {
   .parrafo {
     font-size: 20px;
   }
+  .base1 {
+    width: 500px;
+  }
   .grid-ayuda {
     min-height: 1000px;
     grid-template-columns: 25% 25% 25% 25%;
@@ -679,7 +683,8 @@ body {
   }
   .base {
     font-size: 25px;
-    height: 450px;
+    height: 500px;
+    width: 600px;
   }
 }
 
@@ -720,6 +725,7 @@ body {
   }
   .boton1 {
     align-self: flex-start;
+    font-size: 15px;
   }
   .paneles {
     width: 150px;
@@ -746,7 +752,7 @@ body {
     grid-template-rows: 7% 7% 5% 5% 25% 25% 25%;
     grid-template-columns: 50% 50%;
     justify-items: center;
-    align-items: flex-start;
+    align-items: center;
     display: grid;
     grid-template-areas: "ti ti " "search search" "b1 b2" "b3 b4" "i2 i1" "i5 i3" "i4 .";
   }
@@ -757,8 +763,14 @@ body {
   .boton2 {
     justify-self: left;
   }
+  .boton3 {
+    justify-self: right;
+  }
   .boton4 {
     justify-self: left;
+  }
+  .boton5 {
+    justify-self: right;
   }
   .logo-gif1 {
     display: none;
@@ -769,6 +781,7 @@ body {
   }
   .buscador1 {
     width: 300px;
+    font-size: 20px;
     align-self: center;
   }
   .card {
@@ -821,6 +834,10 @@ body {
   }
   .parrafo {
     font-size: 15px;
+  }
+  .base1 {
+    height: 600px;
+    width: 300px;
   }
   .grid-ayuda {
     min-height: 828px;
