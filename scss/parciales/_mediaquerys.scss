@@ -208,6 +208,8 @@
   }
 }
 
+/*Version Mobile*/
+
 @media screen and (max-width: 600px) {
 
   .logo1 {
@@ -224,207 +226,275 @@
     font-size: 20px;
   }
 
-  .carousel-item {
-    transform: translate(-400px);
-  }
-
-  .carousel-caption {
-    font-size: 25px;
-    position: absolute;
-    right: 150px;
-  }
+#carouselExampleCaptions{
+  display: none;
+}
 
   .mensaje {
-    font-size: 50px;
-    width: 395px;
+    font-size: 30px;
+    width: 350px;
+    padding: 20px;
+    margin-bottom: 20px;
   }
 
   .grid-index {
     max-height: 700px;
-    grid-template-rows: 40% 15% 15% 8% 10%;
-    grid-template-columns: 15% 21% 28% 21% 15%;
+    grid-template-rows: 18% 18% 21% 18% 18% 6%;
+    grid-template-columns: 50% 50%;
+    grid-template-areas:
+    "p-i p1"
+    "t1 p1"
+    "i1 p2" 
+    "t2 p2" 
+    "p-d b"
+    ". tn";
   }
+
+  .parrafo1{
+  align-self: flex-start;
+  }
+  .parrafo2{
+    align-self: flex-start;
+    }
+  
+.boton1{
+  align-self: flex-start;
+}
+
   .paneles {
-    width: 250px;
-    height: 250px;
+    width: 150px;
+    height: 150px;
   }
 
   .triangulo1 {
-    width: 200px;
-    height: 200px;
+    width: 130px;
+    height: 130px;
   }
 
   .triangulo2 {
-    width: 200px;
-    height: 200px;
+    width: 130px;
+    height: 130px;
   }
 
   .panel-izquierdo {
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
   }
 
   .panel-derecho {
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
   }
 
   .grid-tienda {
-    min-height: 828px;
-    grid-template-columns: 20% 20% 20% 20% 20%;
-    grid-template-rows: 20% 15% 15% 40%;
+    min-height: 1000px;
+    grid-template-rows: 7% 7% 5% 5% 25% 25% 25%;
+    grid-template-columns: 50% 50%;
     justify-items: center;
-    align-items: center;
+    align-items: flex-start;
     display: grid;
     grid-template-areas:
-      "gifn . ti . ."
-      ". search search search ."
-      "b1 b2 b3 b4 ."
-      "i2 i1 i5 i3 i4"
-      "bc1 bc2 bc3 bc4 bc5";
+      "ti ti "
+      "search search"
+      "b1 b2" 
+      "b3 b4"
+      "i2 i1"    
+      "i5 i3"
+      "i4 ."
+      ;
+  }
+
+  .card-title{
+    font-size: 10px;
+    text-align: start;
+  }
+
+  .boton2{
+    justify-self: left;
+  }
+
+  .boton4{
+    justify-self: left;
+  }
+
+  .logo-gif1{
+  display: none;
   }
 
   .titulo2 {
-    font-size: 60px;
+    font-size: 20px;
+    align-self: center;
+  }
+  .buscador1{
+  width: 300px;
+  align-self: center;
+  
+  }
+  .card {
+    height: 210px;
+    width: 120px;
   }
 
-  .card {
-    height: 320px;
-    width: 200px;
+  .card-text{
+    display: none;
   }
 
   .imagen1 {
-    width: 198px;
-    height: 210px;
-    padding: 10px;
+    width: 120px;
+    height: 160px;
+    padding: 5px;
+    padding-bottom: 40px;
   }
 
   .imagen2 {
-    width: 198px;
-    height: 210px;
-    padding: 10px;
+    width: 120px;
+    height: 130px;
+    padding: 5px;
   }
   .imagen3 {
-    width: 198px;
-    height: 210px;
-    padding: 10px;
+    width: 120px;
+    height: 130px;
+    padding: 5px;
   }
   .imagen4 {
-    width: 198px;
-    height: 210px;
-    padding: 10px;
+    width: 120px;
+    height: 130px;
+    padding: 5px;
   }
 
   .imagen5 {
-    width: 198px;
-    height: 210px;
-    padding: 10px;
+    width: 120px;
+    height: 130px;
+    padding: 5px;
   }
 
   .grid-contacto {
-    min-height: 828px;
-    grid-template-columns: 20% 20% 20% 20% 20%;
-    grid-template-rows: 15% 5% 15% 20% 20% 20%;
+    min-height: 1000px;
+    grid-template-rows: 10% 5% 15% 30% 30%;
+    grid-template-columns: 100%;
     justify-items: center;
     align-items: center;
     display: grid;
     grid-template-areas:
-      "gif titu titu titu ."
-      ". subt . . ."
-      ". p p p ."
-      ". base base base ."
-      ". base base base ."
-      ". base base base .";
+      "titu"
+      "subt "
+      "p"
+      "base"
+      "base";
   }
 
-  .titulo3 {
-    font-size: 60px;
+  .titulo4 {
+    font-size: 20px;
   }
 
   .subtitulo2 {
-    font-size: 40px;
+    font-size: 30px;
   }
 
   .parrafo {
-    font-size: 20px;
+    font-size: 15px;
   }
 
   .grid-ayuda {
     min-height: 828px;
-    grid-template-columns: 10% 20% 20% 20% 20% 10%;
-    grid-template-rows: 20% 20% 20% 5% 5%;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 10% 10% 5% 5% 15% 5% 5%;
     justify-items: center;
-    align-items: center;
+    align-items: flex-start;
     display: grid;
     grid-template-areas:
-      "gif tit tit tit tit ."
-      ". s s s s ."
-      ". bu bu bu bu ."
-      ". text1 text2 text3 text4 ."
-      ". sel1 sel2 sel3 sel4 .";
+      "tit tit"
+      "s s"
+      "bu bu"
+      "text1 text2"
+      "sel1 sel2"
+      "text3 text4"
+      "sel3 sel4"; 
   }
 
-  .titulo4 {
-    font-size: 60px;
+  .titulo3 {
+    font-size: 20px;
+    align-self: center;
+  }
+
+  .logo-gif{
+    display: none;
   }
 
   .subtitulo1 {
-    font-size: 50px;
+    font-size: 15px;
+    align-self: center;
   }
 
   .buscador2 {
     align-self: flex-start;
+    font-size: 10px;
+    width: 300px;
   }
 
   .text1 {
-    font-size: 20px;
+    font-size: 12px;
+    align-self:flex-end
   }
 
   .text2 {
-    font-size: 20px;
+    font-size: 12px;
   }
 
   .text3 {
-    font-size: 20px;
+    font-size: 12px;
   }
 
   .text4 {
-    font-size: 20px;
+    font-size: 12px;
   }
 
   .selector1 {
-    font-size: 12px;
+    font-size: 8px;
   }
 
   .selector2 {
-    font-size: 12px;
+    font-size: 8px;
   }
   .selector3 {
-    font-size: 12px;
+    font-size: 8px;
   }
 
   .selector4 {
-    font-size: 12px;
+    font-size: 8px;
   }
 
   .grid-iniciar-sesion {
     min-height: 828px;
-    grid-template-columns: 20% 20% 20% 20% 20%;
-    grid-template-rows: 25% 15% 10% 5% 5% 5% 5%;
+    grid-template-columns: 100%;
+    grid-template-rows: 30% 30% 30%;
     justify-items: center;
-    align-items: end;
+    align-items: center;
     display: grid;
     grid-template-areas:
-      ". la1 titulo la2 ."
-      "ba ba ba ba ba"
-      "ba ba ba ba ba"
-      "ba ba ba ba ba"
-      "ba ba ba ba ba"
-      "ba ba ba ba ba"
-      ". . a1 a2 .";
+      "ba"
+      "ba"
+      "ba";
   }
 
   .titulo5 {
-    font-size: 50px;
+    font-size: 20px;
   }
+  .logo-1 {
+    width: 60px;
+    height: 60px;
+  }
+
+  .logo-2 {
+    width: 60px;
+    height: 60px;
+  }
+
+  .base{
+  font-size: 20px;
+  height: 400px;
+  width: 300px;
+  padding: 20px;
+  }
+
 }
