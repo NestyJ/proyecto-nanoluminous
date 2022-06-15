@@ -441,54 +441,58 @@ body {
   align-self: center;
   grid-area: t;
   font-size: 85px;
-  font-style: italic;
-  color: #ff00f2;
-  background-color: white;
+  padding: 15px;
+  color: #efb810;
+  background-color: black;
   border-style: solid;
+  font-family: "Great Vibes", cursive;
 }
 
 .titulo2 {
   grid-area: ti;
   font-size: 80px;
-  font-style: italic;
-  color: #ff00f2;
-  background-color: white;
+  padding: 15px;
+  color: #efb810;
+  background-color: black;
   border-style: solid;
+  font-family: "Great Vibes", cursive;
 }
 
 .titulo3 {
   grid-area: tit;
   text-align: center;
-  font-size: 400%;
-  font-style: italic;
-  color: #ff00f2;
+  font-size: 80px;
+  padding: 15px;
+  font-family: "Great Vibes", cursive;
+  color: #efb810;
   border-style: solid;
-  background-color: white;
+  background-color: black;
 }
 
 .subtitulo1 {
   grid-area: s;
   text-align: center;
   font-size: 400%;
-  font-style: italic;
-  color: #ff00f2;
+  font-family: "Great Vibes", cursive;
+  color: #efb810;
   border-style: solid;
   background-color: white;
 }
 
 .titulo4 {
   grid-area: titu;
-  font-size: 400%;
-  font-style: italic;
-  color: #ff00f2;
+  font-size: 80px;
+  padding: 15px;
+  font-family: "Great Vibes", cursive;
+  color: #efb810;
   border-style: solid;
-  background-color: white;
+  background-color: black;
 }
 
 .subtitulo2 {
   grid-area: subt;
   justify-self: left;
-  color: white;
+  color: #efb810;
   font-size: 300%;
 }
 
@@ -497,9 +501,10 @@ body {
   align-self: center;
   grid-area: titulo;
   font-size: 85px;
-  font-style: italic;
-  color: #ff00f2;
-  background-color: white;
+  padding: 15px;
+  font-family: "Great Vibes", cursive;
+  color: #efb810;
+  background-color: black;
   border-style: solid;
 }
 
@@ -699,7 +704,8 @@ body {
     height: 60px;
   }
   .titulo1 {
-    font-size: 20px;
+    font-size: 30px;
+    padding: 5px;
   }
   #carouselExampleCaptions {
     display: none;
@@ -776,7 +782,8 @@ body {
     display: none;
   }
   .titulo2 {
-    font-size: 20px;
+    font-size: 30px;
+    padding: 5px;
     align-self: center;
   }
   .buscador1 {
@@ -827,7 +834,8 @@ body {
     grid-template-areas: "titu" "subt " "p" "base" "base";
   }
   .titulo4 {
-    font-size: 20px;
+    font-size: 30px;
+    padding: 5px;
   }
   .subtitulo2 {
     font-size: 30px;
@@ -849,7 +857,8 @@ body {
     grid-template-areas: "tit tit" "s s" "bu bu" "text1 text2" "sel1 sel2" "text3 text4" "sel3 sel4";
   }
   .titulo3 {
-    font-size: 20px;
+    font-size: 30px;
+    padding: 5px;
     align-self: center;
   }
   .logo-gif {
@@ -899,7 +908,8 @@ body {
     grid-template-areas: "ba" "ba" "ba";
   }
   .titulo5 {
-    font-size: 20px;
+    font-size: 30px;
+    padding: 5px;
   }
   .logo-1 {
     width: 60px;
